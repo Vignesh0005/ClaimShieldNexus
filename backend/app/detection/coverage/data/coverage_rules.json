@@ -1,0 +1,407 @@
+{
+  "source_document": "Illustrative encoding prepared for a synthetic demo. Not transcribed from Health_Insurance_Coverage_Criteria_and_Rules.pdf.",
+  "plans": [
+    {
+      "plan_type": "individual",
+      "name": "Individual health plan",
+      "description": "Sum insured applies to one person.",
+      "typical_co_pay": 0.0
+    },
+    {
+      "plan_type": "family_floater",
+      "name": "Family floater",
+      "description": "One sum insured shared across family members.",
+      "typical_co_pay": 0.0
+    },
+    {
+      "plan_type": "senior_citizen",
+      "name": "Senior citizen plan",
+      "description": "Designed for members aged 60 and above; usually carries a co-payment.",
+      "typical_co_pay": 0.2
+    },
+    {
+      "plan_type": "group",
+      "name": "Group health plan",
+      "description": "Employer or affinity group cover; waiting periods are often waived.",
+      "typical_co_pay": 0.0
+    },
+    {
+      "plan_type": "critical_illness",
+      "name": "Critical illness plan",
+      "description": "Fixed benefit paid on diagnosis of a listed illness.",
+      "typical_co_pay": 0.0
+    },
+    {
+      "plan_type": "top_up",
+      "name": "Top-up or super top-up",
+      "description": "Pays above a deductible.",
+      "typical_co_pay": 0.0
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "COV_PLAN_TYPE_001",
+      "category": "plan_type",
+      "rule_name": "Plan type is recognised",
+      "check": "plan_type_recognised",
+      "source_section": "Section 1 — Types of Health Insurance Plans",
+      "inputs": [
+        "plan_type"
+      ],
+      "valid_values": [
+        "individual",
+        "family_floater",
+        "senior_citizen",
+        "group",
+        "critical_illness",
+        "top_up"
+      ],
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "The claim must reference a product type the insurer offers.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_ELIGIBILITY_AGE_001",
+      "category": "eligibility",
+      "rule_name": "Age is not a bar to cover",
+      "check": "age_not_a_bar",
+      "source_section": "Section 2 — Eligibility Criteria",
+      "inputs": [
+        "member_age"
+      ],
+      "description": "No upper age limit on entry; age alone cannot be a reason to reject.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_ELIGIBILITY_INFORCE_001",
+      "category": "eligibility",
+      "rule_name": "Policy in force on the service date",
+      "check": "policy_in_force",
+      "source_section": "Section 2 — Eligibility Criteria",
+      "inputs": [
+        "policy_start_date",
+        "service_date"
+      ],
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "Service must fall inside the policy period.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_SCOPE_STAY_001",
+      "category": "coverage_scope",
+      "rule_name": "Minimum hospitalisation or day-care procedure",
+      "check": "hospitalisation_duration",
+      "source_section": "Section 3 — Coverage Scope",
+      "inputs": [
+        "claim_type",
+        "hospitalisation_hours",
+        "procedure_codes"
+      ],
+      "conditions": {
+        "min_hours": 24
+      },
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Inpatient cover needs 24 hours of admission unless a listed day-care procedure was performed.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_SCOPE_TERRITORY_001",
+      "category": "coverage_scope",
+      "rule_name": "Treatment within policy territory",
+      "check": "service_territory",
+      "source_section": "Section 3 — Coverage Scope",
+      "inputs": [
+        "service_location"
+      ],
+      "conditions": {
+        "territories": [
+          "IN"
+        ]
+      },
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "Treatment outside India needs worldwide cover.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_WAITING_INITIAL_001",
+      "category": "waiting_period",
+      "rule_name": "Initial waiting period",
+      "check": "initial_waiting_period",
+      "source_section": "Section 4 — Waiting Periods",
+      "inputs": [
+        "policy_start_date",
+        "service_date"
+      ],
+      "conditions": {
+        "days": 30
+      },
+      "description": "First 30 days of a new policy, except for accidents.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_WAITING_SPECIFIC_001",
+      "category": "waiting_period",
+      "rule_name": "Specific disease waiting period",
+      "check": "specific_disease_waiting",
+      "source_section": "Section 4 — Waiting Periods",
+      "inputs": [
+        "diagnosis_codes",
+        "policy_start_date",
+        "service_date"
+      ],
+      "conditions": {
+        "months": 24
+      },
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Listed conditions such as cataract, hernia and joint replacement; commonly 24 months, capped at 36.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_WAITING_PED_001",
+      "category": "waiting_period",
+      "rule_name": "Pre-existing disease waiting period",
+      "check": "pre_existing_disease_waiting",
+      "source_section": "Section 4 — Waiting Periods",
+      "inputs": [
+        "diagnosis_codes",
+        "policy_start_date",
+        "service_date"
+      ],
+      "conditions": {
+        "months": 36
+      },
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Pre-existing disease waiting period of up to 36 months.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_EXCLUSION_COSMETIC_001",
+      "category": "exclusions",
+      "rule_name": "Cosmetic treatment exclusion",
+      "check": "exclusion_cosmetic",
+      "source_section": "Section 5 — Common Exclusions",
+      "inputs": [
+        "procedure_codes",
+        "diagnosis_codes"
+      ],
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "Cosmetic or aesthetic treatment unless required after an accident or as part of medically necessary treatment.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_EXCLUSION_DENTAL_001",
+      "category": "exclusions",
+      "rule_name": "Dental treatment exclusion",
+      "check": "exclusion_dental",
+      "source_section": "Section 5 — Common Exclusions",
+      "inputs": [
+        "diagnosis_codes"
+      ],
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "Dental treatment unless arising from an accident.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_EXCLUSION_INFERTILITY_001",
+      "category": "exclusions",
+      "rule_name": "Infertility treatment exclusion",
+      "check": "exclusion_infertility",
+      "source_section": "Section 5 — Common Exclusions",
+      "inputs": [
+        "diagnosis_codes"
+      ],
+      "description": "Infertility and assisted reproduction.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_LIMIT_COPAY_001",
+      "category": "limits",
+      "rule_name": "Senior citizen co-payment",
+      "check": "senior_co_payment",
+      "source_section": "Section 6 — Limits and Cost-Sharing Rules",
+      "inputs": [
+        "plan_type",
+        "member_age"
+      ],
+      "conditions": {
+        "age_from": 61,
+        "default_rate": 0.1
+      },
+      "description": "Co-payment commonly applied on senior citizen plans.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_LIMIT_SUM_INSURED_001",
+      "category": "limits",
+      "rule_name": "Sum insured limit",
+      "check": "sum_insured_limit",
+      "source_section": "Section 6 — Limits and Cost-Sharing Rules",
+      "inputs": [
+        "total_billed",
+        "sum_insured"
+      ],
+      "description": "Payable amount cannot exceed the available sum insured.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_LIMIT_ROOM_RENT_001",
+      "category": "limits",
+      "rule_name": "Room rent cap",
+      "check": "room_rent_limit",
+      "source_section": "Section 6 — Limits and Cost-Sharing Rules",
+      "inputs": [
+        "room_rent_per_day",
+        "room_rent_cap_per_day"
+      ],
+      "description": "Proportionate deduction when room rent exceeds the cap.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_PROCESS_PREAUTH_001",
+      "category": "claim_process",
+      "rule_name": "Pre-authorisation for planned cashless admission",
+      "check": "pre_authorisation",
+      "source_section": "Section 7 — Claim Process",
+      "inputs": [
+        "claim_type",
+        "pre_auth_number"
+      ],
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Planned cashless admissions need pre-authorisation.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_PROCESS_DOCS_001",
+      "category": "claim_process",
+      "rule_name": "Required documents received",
+      "check": "required_documents",
+      "source_section": "Section 7 — Claim Process",
+      "inputs": [
+        "documents_provided",
+        "claim_type"
+      ],
+      "conditions": {
+        "default": [
+          "claim_form"
+        ],
+        "inpatient": [
+          "claim_form",
+          "discharge_summary",
+          "hospital_bill"
+        ]
+      },
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Claim form and supporting documents.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_PROCESS_TIMELY_001",
+      "category": "claim_process",
+      "rule_name": "Timely submission",
+      "check": "timely_submission",
+      "source_section": "Section 7 — Claim Process",
+      "inputs": [
+        "days_from_discharge_to_submission"
+      ],
+      "conditions": {
+        "days": 30
+      },
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Reimbursement claims are expected within the policy's submission window.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_POLICY_MORATORIUM_001",
+      "category": "policy_rules",
+      "rule_name": "Moratorium period",
+      "check": "moratorium",
+      "source_section": "Section 8 — Policy Rules",
+      "inputs": [
+        "policy_start_date",
+        "service_date"
+      ],
+      "conditions": {
+        "months": 60
+      },
+      "description": "After 60 months of continuous cover a claim is not contestable for non-disclosure, except for established fraud.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_POLICY_RENEWAL_001",
+      "category": "policy_rules",
+      "rule_name": "Renewal continuity",
+      "check": "renewal_continuity",
+      "source_section": "Section 8 — Policy Rules",
+      "inputs": [
+        "renewal_gap_days"
+      ],
+      "conditions": {
+        "grace_days": 30
+      },
+      "on_uncertain": "FLAG_FOR_REVIEW",
+      "description": "Renewal within the grace period keeps continuity benefits.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_ADDON_MATERNITY_001",
+      "category": "add_ons",
+      "rule_name": "Maternity rider",
+      "check": "maternity_rider",
+      "source_section": "Section 9 — Add-ons and Riders",
+      "inputs": [
+        "diagnosis_codes",
+        "riders"
+      ],
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "Maternity expenses need a maternity benefit on the policy.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_ADDON_OPD_001",
+      "category": "add_ons",
+      "rule_name": "Outpatient rider",
+      "check": "outpatient_rider",
+      "source_section": "Section 9 — Add-ons and Riders",
+      "inputs": [
+        "claim_type",
+        "riders"
+      ],
+      "on_uncertain": "COVERAGE_REVIEW_REQUIRED",
+      "description": "Outpatient consultation claims need OPD cover.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    },
+    {
+      "rule_id": "COV_GRIEVANCE_001",
+      "category": "grievance",
+      "rule_name": "Grievance redressal path",
+      "check": "grievance_path",
+      "source_section": "Section 11 — Grievance Redressal",
+      "inputs": [],
+      "description": "Escalation path available to the member.",
+      "authoritative": false,
+      "needs_compliance_review": true
+    }
+  ],
+  "disclaimer": "Illustrative rule written for the demo. Not transcribed from the IRDAI framework document. Requires compliance review before production use."
+}

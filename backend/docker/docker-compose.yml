@@ -1,0 +1,86 @@
+# Run from the backend directory:
+#   docker compose -f docker/docker-compose.yml up --build
+#
+# Set POSTGRES_PASSWORD and JWT_SECRET in a .env file beside this compose file (or in the shell).
+# There are no default secrets on purpose: compose refuses to start without them.
+
+x-app: &app
+  build:
+    context: ..
+    dockerfile: docker/Dockerfile
+  environment: &app-env
+    ENV: ${ENV:-production}
+    DATABASE_URL: postgresql+asyncpg://claimshield:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}@db:5432/claimshield
+    REDIS_URL: redis://redis:6379/0
+    JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET}
+    CLERK_JWKS_URL: ${CLERK_JWKS_URL:-}
+    CLERK_ISSUER: ${CLERK_ISSUER:-}
+    ML_SERVER_URL: ${ML_SERVER_URL:-}
+    ML_FALLBACK_ENABLED: "true"
+    OLLAMA_URL: ${OLLAMA_URL:-https://ollama.com}
+    OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
+    OLLAMA_MODEL: ${OLLAMA_MODEL:-gpt-oss:120b}
+    SQS_QUEUE_URL: ${SQS_QUEUE_URL:-}
+    AWS_REGION: ${AWS_REGION:-us-east-1}
+    SENTRY_DSN: ${SENTRY_DSN:-}
+    CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000"]}
+    ARTIFACTS_DIR: /srv/artifacts
+  volumes:
+    - artifacts:/srv/artifacts
+  depends_on:
+    db:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+  restart: unless-stopped
+
+services:
+  api:
+    <<: *app
+    environment:
+      <<: *app-env
+      RUN_MIGRATIONS: "true"
+    ports:
+      - "8000:8000"
+
+  worker:
+    <<: *app
+    command: celery -A app.workers.celery_app worker --loglevel=info --concurrency=4
+
+  scheduler:
+    <<: *app
+    command: celery -A app.workers.celery_app beat --loglevel=info
+
+  # Optional: event-driven ingestion. Start with `--profile sqs` once SQS_QUEUE_URL is set.
+  sqs-consumer:
+    <<: *app
+    profiles: ["sqs"]
+    command: python -m app.ingestion.adapters.sqs_adapter
+
+  db:
+    image: pgvector/pgvector:pg15
+    environment:
+      POSTGRES_DB: claimshield
+      POSTGRES_USER: claimshield
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U claimshield -d claimshield"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  artifacts:

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ClaimShield Nexus</title>
+    <style>
+      body { width: 300px; margin: 0; padding: 14px; font: 13px/1.45 Inter, system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+      h1 { font-size: 14px; margin: 0 0 2px; }
+      p { margin: 0 0 12px; color: #cbd5e1; }
+      label { display: block; font-weight: 600; margin-bottom: 4px; }
+      input[type="url"], input[type="text"] { width: 100%; box-sizing: border-box; padding: 7px 8px; border-radius: 6px; border: 1px solid #64748b; background: #1e293b; color: #f1f5f9; font: 12px "JetBrains Mono", ui-monospace, monospace; }
+      .row { display: flex; align-items: center; gap: 8px; margin: 12px 0; }
+      .row label { margin: 0; font-weight: 400; }
+      button { width: 100%; padding: 8px; border: 0; border-radius: 6px; background: #3b82f6; color: #0f172a; font-weight: 600; cursor: pointer; }
+      :focus-visible { outline: 2px solid #93c5fd; outline-offset: 2px; }
+      #status { min-height: 18px; margin: 8px 0 0; }
+      .note { border-top: 1px solid #334155; padding-top: 10px; margin: 12px 0 0; font-size: 12px; color: #cbd5e1; }
+    </style>
+  </head>
+  <body>
+    <h1>ClaimShield Nexus</h1>
+    <p>Risk summaries inside your claims screens.</p>
+    <label for="base">ClaimShield address</label>
+    <input id="base" type="url" placeholder="http://localhost:3000" />
+    <div style="height: 10px"></div>
+    <label for="tenant">Tenant ID</label>
+    <input id="tenant" type="text" placeholder="meridian" />
+    <div class="row">
+      <input id="enabled" type="checkbox" />
+      <label for="enabled">Show the overlay on pages</label>
+    </div>
+    <button id="save">Save settings</button>
+    <p id="status" role="status"></p>
+    <p class="note">Click the blue button on a page, then click an ID, or hold Alt and draw a circle around one. Synthetic demo. Not a fraud determination.</p>
+    <script src="popup.js"></script>
+  </body>
+</html>

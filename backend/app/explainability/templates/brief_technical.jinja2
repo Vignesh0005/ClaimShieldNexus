@@ -1,0 +1,30 @@
+# SIU investigation brief: {{ b.case_id }}
+
+> {{ b.disclaimer }}
+
+**Provider:** {{ b.provider }}
+**Risk score:** {{ "%.0f%%"|format(b.risk_score * 100) }} ({{ b.severity }})
+**Potential amount (INR):** {{ b.potential_dollars | inr }}
+**Members affected:** {{ b.members_affected }}
+**Member harm score:** {{ "%.0f%%"|format(b.member_harm_score * 100) }}
+**Evidence strength:** {{ "%.0f%%"|format(b.evidence_strength * 100) }} ({{ b.quadrant }})
+
+## Evidence
+{% for e in b.evidence -%}
+{{ loop.index }}. {{ e.detector|capitalize }}: {{ e.label }}, {{ e.score_label }} {{ "%.0f%%"|format(e.score * 100) }}{% if e.detail %}. {{ e.detail }}{% endif %} (source: {{ e.source }})
+{% endfor %}
+## Timeline
+{% for t in b.timeline -%}
+- {{ t.date }}: {{ t.title }}
+{% endfor %}
+## Network context
+{{ b.network.text }}
+
+## Limitations
+{% for l in b.limitations -%}
+- {{ l }}
+{% endfor %}
+## Recommended action
+{{ b.recommended_action }}
+
+Model version: {{ b.model_version }}. Generated {{ b.generated_at }}.

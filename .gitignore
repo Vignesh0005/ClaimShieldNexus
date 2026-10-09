@@ -1,0 +1,23 @@
+node_modules
+.next
+out
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+
+# Local credentials, environments, caches, and generated exports
+.env.*
+!.env.example
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.history/
+output/
+tmp/
+backend/backups/

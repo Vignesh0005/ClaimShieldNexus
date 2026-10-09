@@ -1,0 +1,50 @@
+[
+ {
+  "facility_id": "FAC-0001",
+  "name": "Mumbai clinic",
+  "city": "Mumbai",
+  "lat": 19.076,
+  "lng": 72.8777,
+  "address": "1 Hospital Road"
+ },
+ {
+  "facility_id": "FAC-0002",
+  "name": "Delhi clinic",
+  "city": "Delhi",
+  "lat": 28.6139,
+  "lng": 77.209,
+  "address": "2 Hospital Road"
+ },
+ {
+  "facility_id": "FAC-0003",
+  "name": "Bengaluru clinic",
+  "city": "Bengaluru",
+  "lat": 12.9716,
+  "lng": 77.5946,
+  "address": "3 Hospital Road"
+ },
+ {
+  "facility_id": "FAC-0004",
+  "name": "Chennai clinic",
+  "city": "Chennai",
+  "lat": 13.0827,
+  "lng": 80.2707,
+  "address": "4 Hospital Road"
+ },
+ {
+  "facility_id": "FAC-0005",
+  "name": "Kolkata clinic",
+  "city": "Kolkata",
+  "lat": 22.5726,
+  "lng": 88.3639,
+  "address": "5 Hospital Road"
+ },
+ {
+  "facility_id": "FAC-0006",
+  "name": "Hyderabad clinic",
+  "city": "Hyderabad",
+  "lat": 17.385,
+  "lng": 78.4867,
+  "address": "6 Hospital Road"
+ }
+]

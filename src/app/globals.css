@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  .dark {
+    --background: 210 40% 96.078431%;
+    --foreground: 215.294118 25% 26.666667%;
+    --card: 0 0% 100%;
+    --card-foreground: 215.294118 25% 26.666667%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215.294118 25% 26.666667%;
+    --primary: 162.931034 93.548387% 24.313725%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96.078431%;
+    --secondary-foreground: 215.294118 25% 26.666667%;
+    --muted: 210 40% 96.078431%;
+    --muted-foreground: 215 16% 40%;
+    --accent: 152 50% 93%;
+    --accent-foreground: 163 94% 20%;
+    --border: 214 32% 88%;
+    --input: 214 32% 82%;
+    --ring: 162.931034 93.548387% 24.313725%;
+    --link: 162.931034 93.548387% 24.313725%;
+    --sidebar: 162.931034 93.548387% 24.313725%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-muted: 152 35% 84%;
+    --grid: 214 32% 88%;
+  }
+
+  * {
+    @apply border-border;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  *::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+    background-attachment: fixed;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply tracking-tight;
+  }
+}
+
+@layer components {
+  .workspace-canvas {
+    background: hsl(var(--background));
+  }
+  .glass-panel,
+  .surface-card.glass-panel {
+    background: hsl(var(--card));
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow: 0 8px 24px -18px rgba(51, 65, 85, 0.35);
+  }
+  .surface-card.neo-card {
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border));
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(51, 65, 85, 0.04);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .surface-card.neo-card:has(a:focus-visible, button:focus-visible) {
+    box-shadow: 0 0 0 2px hsl(var(--ring));
+  }
+  .glass-header {
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    box-shadow: 0 2px 12px -8px rgba(51, 65, 85, 0.25);
+  }
+  .sidebar-surface {
+    background: #047857;
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+  }
+}
+
+@layer utilities {
+  .id {
+    @apply font-mono text-[0.8125em] tabular-nums;
+  }
+
+  .num {
+    @apply tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.leaflet-container {
+  font-family: inherit;
+  background: hsl(var(--muted));
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: hsl(var(--popover));
+  color: hsl(var(--popover-foreground));
+}
+
+.dark .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.92) contrast(0.88) saturate(0.6);
+}

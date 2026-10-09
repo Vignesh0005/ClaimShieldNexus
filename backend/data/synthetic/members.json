@@ -1,0 +1,4002 @@
+[
+ {
+  "member_id": "MBR-1000",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-06-25",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-1003",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-08-22",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-1006",
+  "age": 65,
+  "low_income_area": true,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-02-08",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-1009",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-03-27",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-1012",
+  "age": 13,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-03-18",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1015",
+  "age": 12,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-11-11",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1018",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-28",
+  "postal_code": "400075"
+ },
+ {
+  "member_id": "MBR-1021",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-05-26",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-1024",
+  "age": 39,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-09-14",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-1027",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-16",
+  "postal_code": "400075"
+ },
+ {
+  "member_id": "MBR-1030",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-02-13",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1033",
+  "age": 37,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-07-24",
+  "postal_code": "400094"
+ },
+ {
+  "member_id": "MBR-1036",
+  "age": 21,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2022-07-25",
+  "postal_code": "400097"
+ },
+ {
+  "member_id": "MBR-1039",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-02-14",
+  "postal_code": "400006"
+ },
+ {
+  "member_id": "MBR-1042",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-07-31",
+  "postal_code": "400089"
+ },
+ {
+  "member_id": "MBR-1045",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-03-27",
+  "postal_code": "400059"
+ },
+ {
+  "member_id": "MBR-1048",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-02-23",
+  "postal_code": "400094"
+ },
+ {
+  "member_id": "MBR-1051",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-11-22",
+  "postal_code": "400092"
+ },
+ {
+  "member_id": "MBR-1054",
+  "age": 24,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2021-06-30",
+  "postal_code": "400022"
+ },
+ {
+  "member_id": "MBR-1057",
+  "age": 64,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-02-27",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-1060",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-09-14",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1063",
+  "age": 36,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2020-05-28",
+  "postal_code": "400036"
+ },
+ {
+  "member_id": "MBR-1066",
+  "age": 72,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-02-27",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-1069",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-03-12",
+  "postal_code": "400020"
+ },
+ {
+  "member_id": "MBR-1072",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-10-07",
+  "postal_code": "400076"
+ },
+ {
+  "member_id": "MBR-1075",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-06-19",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-1078",
+  "age": 30,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-06",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-1081",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-12-04",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-1084",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-10-14",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-1087",
+  "age": 27,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-02-10",
+  "postal_code": "400027"
+ },
+ {
+  "member_id": "MBR-1090",
+  "age": 37,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-06-27",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-1093",
+  "age": 49,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2021-06-13",
+  "postal_code": "400079"
+ },
+ {
+  "member_id": "MBR-1096",
+  "age": 84,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-01-27",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1099",
+  "age": 52,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-10-19",
+  "postal_code": "400015"
+ },
+ {
+  "member_id": "MBR-1102",
+  "age": 80,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-01-03",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-1105",
+  "age": 1,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-01-01",
+  "postal_code": "400062"
+ },
+ {
+  "member_id": "MBR-1108",
+  "age": 51,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-31",
+  "postal_code": "400089"
+ },
+ {
+  "member_id": "MBR-1111",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-07-11",
+  "postal_code": "400039"
+ },
+ {
+  "member_id": "MBR-1114",
+  "age": 83,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-06-06",
+  "postal_code": "400022"
+ },
+ {
+  "member_id": "MBR-1117",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-02",
+  "postal_code": "400070"
+ },
+ {
+  "member_id": "MBR-1120",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-02-22",
+  "postal_code": "400052"
+ },
+ {
+  "member_id": "MBR-1123",
+  "age": 29,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-05-14",
+  "postal_code": "400067"
+ },
+ {
+  "member_id": "MBR-1126",
+  "age": 15,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-02",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-1129",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-24",
+  "postal_code": "400093"
+ },
+ {
+  "member_id": "MBR-1132",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-03-20",
+  "postal_code": "400061"
+ },
+ {
+  "member_id": "MBR-1135",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-10-12",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-1138",
+  "age": 71,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-11-18",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1141",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-04-23",
+  "postal_code": "400092"
+ },
+ {
+  "member_id": "MBR-1144",
+  "age": 46,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-01-01",
+  "postal_code": "400093"
+ },
+ {
+  "member_id": "MBR-1147",
+  "age": 24,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-01-05",
+  "postal_code": "400093"
+ },
+ {
+  "member_id": "MBR-1150",
+  "age": 78,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2019-10-23",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-1153",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-10-20",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1156",
+  "age": 59,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2020-07-14",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1159",
+  "age": 65,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-05-25",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-1162",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-01-12",
+  "postal_code": "400070"
+ },
+ {
+  "member_id": "MBR-1165",
+  "age": 48,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-02-23",
+  "postal_code": "400095"
+ },
+ {
+  "member_id": "MBR-1168",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-09-03",
+  "postal_code": "400017"
+ },
+ {
+  "member_id": "MBR-1171",
+  "age": 62,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-01-07",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-1174",
+  "age": 20,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-10-31",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-1177",
+  "age": 25,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-08-29",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-1180",
+  "age": 21,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-05-06",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-1183",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-02",
+  "postal_code": "400099"
+ },
+ {
+  "member_id": "MBR-1186",
+  "age": 63,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2021-01-01",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-1189",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-12-07",
+  "postal_code": "400058"
+ },
+ {
+  "member_id": "MBR-1192",
+  "age": 11,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-21",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-1195",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-23",
+  "postal_code": "400018"
+ },
+ {
+  "member_id": "MBR-1198",
+  "age": 29,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-01-31",
+  "postal_code": "400010"
+ },
+ {
+  "member_id": "MBR-1201",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-10-20",
+  "postal_code": "400020"
+ },
+ {
+  "member_id": "MBR-1204",
+  "age": 71,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-09-19",
+  "postal_code": "400060"
+ },
+ {
+  "member_id": "MBR-1207",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-04-03",
+  "postal_code": "400063"
+ },
+ {
+  "member_id": "MBR-1210",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-08-06",
+  "postal_code": "400052"
+ },
+ {
+  "member_id": "MBR-1213",
+  "age": 70,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-09-13",
+  "postal_code": "400012"
+ },
+ {
+  "member_id": "MBR-1216",
+  "age": 45,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-05-21",
+  "postal_code": "400050"
+ },
+ {
+  "member_id": "MBR-1219",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-12",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-1222",
+  "age": 78,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-12-31",
+  "postal_code": "400035"
+ },
+ {
+  "member_id": "MBR-1225",
+  "age": 73,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-10-05",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-1228",
+  "age": 62,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-08-26",
+  "postal_code": "400069"
+ },
+ {
+  "member_id": "MBR-1231",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-08-27",
+  "postal_code": "400012"
+ },
+ {
+  "member_id": "MBR-1234",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-12-24",
+  "postal_code": "400003"
+ },
+ {
+  "member_id": "MBR-1237",
+  "age": 79,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-01-29",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1240",
+  "age": 80,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-05-21",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1243",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-01-01",
+  "postal_code": "400017"
+ },
+ {
+  "member_id": "MBR-1246",
+  "age": 74,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-03-16",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-1249",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-12-18",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-1252",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-12-20",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1255",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-13",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-1258",
+  "age": 68,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-24",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-1261",
+  "age": 48,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-10-22",
+  "postal_code": "400064"
+ },
+ {
+  "member_id": "MBR-1264",
+  "age": 7,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-04-13",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1267",
+  "age": 34,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-21",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1270",
+  "age": 81,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-01-26",
+  "postal_code": "400021"
+ },
+ {
+  "member_id": "MBR-1273",
+  "age": 41,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2020-08-25",
+  "postal_code": "400086"
+ },
+ {
+  "member_id": "MBR-1276",
+  "age": 71,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-06-13",
+  "postal_code": "400021"
+ },
+ {
+  "member_id": "MBR-1279",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-01-04",
+  "postal_code": "400047"
+ },
+ {
+  "member_id": "MBR-1282",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-10-02",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-1285",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-08-10",
+  "postal_code": "400049"
+ },
+ {
+  "member_id": "MBR-1288",
+  "age": 59,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-28",
+  "postal_code": "400001"
+ },
+ {
+  "member_id": "MBR-1291",
+  "age": 53,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2022-09-06",
+  "postal_code": "400052"
+ },
+ {
+  "member_id": "MBR-1294",
+  "age": 29,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-01-05",
+  "postal_code": "400075"
+ },
+ {
+  "member_id": "MBR-1297",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-10-20",
+  "postal_code": "400092"
+ },
+ {
+  "member_id": "MBR-1300",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-08-25",
+  "postal_code": "400037"
+ },
+ {
+  "member_id": "MBR-1303",
+  "age": 20,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-03-30",
+  "postal_code": "400092"
+ },
+ {
+  "member_id": "MBR-1306",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-20",
+  "postal_code": "400097"
+ },
+ {
+  "member_id": "MBR-1309",
+  "age": 29,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-03-18",
+  "postal_code": "400092"
+ },
+ {
+  "member_id": "MBR-1312",
+  "age": 34,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-04-03",
+  "postal_code": "400018"
+ },
+ {
+  "member_id": "MBR-1315",
+  "age": 19,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-05-17",
+  "postal_code": "400058"
+ },
+ {
+  "member_id": "MBR-1318",
+  "age": 21,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-09-28",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-1321",
+  "age": 36,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2020-08-31",
+  "postal_code": "400069"
+ },
+ {
+  "member_id": "MBR-1324",
+  "age": 65,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-01-26",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-1327",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-03-12",
+  "postal_code": "400095"
+ },
+ {
+  "member_id": "MBR-1330",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-10-19",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-1333",
+  "age": 28,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-01-11",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-1336",
+  "age": 41,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-11-01",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1339",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-06-02",
+  "postal_code": "400062"
+ },
+ {
+  "member_id": "MBR-1342",
+  "age": 59,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-09-13",
+  "postal_code": "400063"
+ },
+ {
+  "member_id": "MBR-1345",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-18",
+  "postal_code": "400060"
+ },
+ {
+  "member_id": "MBR-1348",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-09-27",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1351",
+  "age": 48,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-11",
+  "postal_code": "400059"
+ },
+ {
+  "member_id": "MBR-1354",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-04-24",
+  "postal_code": "400027"
+ },
+ {
+  "member_id": "MBR-1357",
+  "age": 56,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2022-09-10",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1360",
+  "age": 1,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-09",
+  "postal_code": "400091"
+ },
+ {
+  "member_id": "MBR-1363",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-10-05",
+  "postal_code": "400051"
+ },
+ {
+  "member_id": "MBR-1366",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-03-19",
+  "postal_code": "400039"
+ },
+ {
+  "member_id": "MBR-1369",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-07-23",
+  "postal_code": "400049"
+ },
+ {
+  "member_id": "MBR-1372",
+  "age": 31,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-04-03",
+  "postal_code": "400016"
+ },
+ {
+  "member_id": "MBR-1375",
+  "age": 79,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-06-03",
+  "postal_code": "400095"
+ },
+ {
+  "member_id": "MBR-1378",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-06-19",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-1381",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-30",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-1384",
+  "age": 72,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-12-30",
+  "postal_code": "400056"
+ },
+ {
+  "member_id": "MBR-1387",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-05-24",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-1390",
+  "age": 71,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-01-13",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1393",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-12-16",
+  "postal_code": "400079"
+ },
+ {
+  "member_id": "MBR-1396",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-05-27",
+  "postal_code": "400017"
+ },
+ {
+  "member_id": "MBR-1399",
+  "age": 18,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2021-07-24",
+  "postal_code": "400037"
+ },
+ {
+  "member_id": "MBR-1402",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-18",
+  "postal_code": "400084"
+ },
+ {
+  "member_id": "MBR-1405",
+  "age": 75,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2019-09-27",
+  "postal_code": "400051"
+ },
+ {
+  "member_id": "MBR-1408",
+  "age": 65,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2020-05-26",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1411",
+  "age": 64,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-18",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-1414",
+  "age": 53,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-05-15",
+  "postal_code": "400012"
+ },
+ {
+  "member_id": "MBR-1417",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-01-14",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-1420",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-03-02",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1423",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-12-21",
+  "postal_code": "400044"
+ },
+ {
+  "member_id": "MBR-1426",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-10-13",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-1429",
+  "age": 23,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-12-20",
+  "postal_code": "400035"
+ },
+ {
+  "member_id": "MBR-1432",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-09-26",
+  "postal_code": "400003"
+ },
+ {
+  "member_id": "MBR-1435",
+  "age": 34,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2020-10-31",
+  "postal_code": "400076"
+ },
+ {
+  "member_id": "MBR-1438",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-12-20",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-1441",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-15",
+  "postal_code": "400020"
+ },
+ {
+  "member_id": "MBR-1444",
+  "age": 17,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-01-04",
+  "postal_code": "400071"
+ },
+ {
+  "member_id": "MBR-1447",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-10-13",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1450",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-12-22",
+  "postal_code": "400033"
+ },
+ {
+  "member_id": "MBR-1453",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-11-10",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-1456",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-03-27",
+  "postal_code": "400077"
+ },
+ {
+  "member_id": "MBR-1459",
+  "age": 55,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-26",
+  "postal_code": "400036"
+ },
+ {
+  "member_id": "MBR-1462",
+  "age": 72,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-03-04",
+  "postal_code": "400071"
+ },
+ {
+  "member_id": "MBR-1465",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-11-05",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-1468",
+  "age": 57,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-01-12",
+  "postal_code": "400033"
+ },
+ {
+  "member_id": "MBR-1471",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-05-30",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1474",
+  "age": 16,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-08-30",
+  "postal_code": "400051"
+ },
+ {
+  "member_id": "MBR-1477",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-28",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-1480",
+  "age": 59,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-03-12",
+  "postal_code": "400060"
+ },
+ {
+  "member_id": "MBR-1483",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-16",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-1486",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-10-04",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-1489",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-04-13",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1492",
+  "age": 57,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-02-24",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-1495",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-08",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1498",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-04-23",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-1501",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-05-23",
+  "postal_code": "400043"
+ },
+ {
+  "member_id": "MBR-1504",
+  "age": 37,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2021-07-08",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1507",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-05-04",
+  "postal_code": "400098"
+ },
+ {
+  "member_id": "MBR-1510",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-12-30",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1513",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-05-25",
+  "postal_code": "400070"
+ },
+ {
+  "member_id": "MBR-1516",
+  "age": 56,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-04-26",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-1519",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-04-05",
+  "postal_code": "400049"
+ },
+ {
+  "member_id": "MBR-1522",
+  "age": 52,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-05-24",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1525",
+  "age": 47,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-06-14",
+  "postal_code": "400035"
+ },
+ {
+  "member_id": "MBR-1528",
+  "age": 22,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-12-10",
+  "postal_code": "400039"
+ },
+ {
+  "member_id": "MBR-1531",
+  "age": 86,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-05-09",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1534",
+  "age": 69,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-01-28",
+  "postal_code": "400064"
+ },
+ {
+  "member_id": "MBR-1537",
+  "age": 64,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2022-06-18",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-1540",
+  "age": 56,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-01-31",
+  "postal_code": "400031"
+ },
+ {
+  "member_id": "MBR-1543",
+  "age": 16,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-26",
+  "postal_code": "400047"
+ },
+ {
+  "member_id": "MBR-1546",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-08-04",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-1549",
+  "age": 21,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-10-14",
+  "postal_code": "400071"
+ },
+ {
+  "member_id": "MBR-1552",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-01-31",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-1555",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-12-12",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1558",
+  "age": 16,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-09-28",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1561",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-06-20",
+  "postal_code": "400086"
+ },
+ {
+  "member_id": "MBR-1564",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-04-23",
+  "postal_code": "400035"
+ },
+ {
+  "member_id": "MBR-1567",
+  "age": 13,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-05-16",
+  "postal_code": "400057"
+ },
+ {
+  "member_id": "MBR-1570",
+  "age": 46,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-08-28",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-1573",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-22",
+  "postal_code": "400068"
+ },
+ {
+  "member_id": "MBR-1576",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-11-30",
+  "postal_code": "400001"
+ },
+ {
+  "member_id": "MBR-1579",
+  "age": 80,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-05-23",
+  "postal_code": "400006"
+ },
+ {
+  "member_id": "MBR-1582",
+  "age": 55,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-01-25",
+  "postal_code": "400048"
+ },
+ {
+  "member_id": "MBR-1585",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-20",
+  "postal_code": "400078"
+ },
+ {
+  "member_id": "MBR-1588",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-11-30",
+  "postal_code": "400077"
+ },
+ {
+  "member_id": "MBR-1591",
+  "age": 78,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-04-12",
+  "postal_code": "400048"
+ },
+ {
+  "member_id": "MBR-1594",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-02-16",
+  "postal_code": "400094"
+ },
+ {
+  "member_id": "MBR-1597",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-06-04",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-1600",
+  "age": 30,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-05-07",
+  "postal_code": "400005"
+ },
+ {
+  "member_id": "MBR-1603",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-02-18",
+  "postal_code": "400053"
+ },
+ {
+  "member_id": "MBR-1606",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-10-29",
+  "postal_code": "400021"
+ },
+ {
+  "member_id": "MBR-1609",
+  "age": 57,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-10",
+  "postal_code": "400037"
+ },
+ {
+  "member_id": "MBR-1612",
+  "age": 36,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-01",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1615",
+  "age": 28,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-11-16",
+  "postal_code": "400026"
+ },
+ {
+  "member_id": "MBR-1618",
+  "age": 31,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-08-11",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-1621",
+  "age": 58,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2021-03-18",
+  "postal_code": "400074"
+ },
+ {
+  "member_id": "MBR-1624",
+  "age": 61,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-03-14",
+  "postal_code": "400071"
+ },
+ {
+  "member_id": "MBR-1627",
+  "age": 31,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2022-12-27",
+  "postal_code": "400074"
+ },
+ {
+  "member_id": "MBR-1630",
+  "age": 32,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-07-15",
+  "postal_code": "400037"
+ },
+ {
+  "member_id": "MBR-1633",
+  "age": 33,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-02-10",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-1636",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-10-18",
+  "postal_code": "400017"
+ },
+ {
+  "member_id": "MBR-1639",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-10-12",
+  "postal_code": "400041"
+ },
+ {
+  "member_id": "MBR-1642",
+  "age": 86,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-11-24",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1645",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-01",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-1648",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-05-03",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-1651",
+  "age": 43,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-05-29",
+  "postal_code": "400006"
+ },
+ {
+  "member_id": "MBR-1654",
+  "age": 73,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-10-29",
+  "postal_code": "400050"
+ },
+ {
+  "member_id": "MBR-1657",
+  "age": 21,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-11-06",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-1660",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-24",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-1663",
+  "age": 59,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-06-20",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-1666",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-06-25",
+  "postal_code": "400061"
+ },
+ {
+  "member_id": "MBR-1669",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-10-07",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-1672",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-04-05",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-1675",
+  "age": 49,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-14",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1678",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-05-06",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-1681",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-05-27",
+  "postal_code": "400017"
+ },
+ {
+  "member_id": "MBR-1684",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-04-01",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-1687",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-06",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-1690",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-01-23",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-1693",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-04-27",
+  "postal_code": "400076"
+ },
+ {
+  "member_id": "MBR-1696",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-05-16",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-1699",
+  "age": 68,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-09-05",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-1702",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-07-06",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1705",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-12",
+  "postal_code": "400072"
+ },
+ {
+  "member_id": "MBR-1708",
+  "age": 17,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-06-25",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-1711",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-01-01",
+  "postal_code": "400049"
+ },
+ {
+  "member_id": "MBR-1714",
+  "age": 70,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-03-13",
+  "postal_code": "400023"
+ },
+ {
+  "member_id": "MBR-1717",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-10-29",
+  "postal_code": "400067"
+ },
+ {
+  "member_id": "MBR-1720",
+  "age": 45,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-06-24",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1723",
+  "age": 73,
+  "low_income_area": true,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-01-13",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-1726",
+  "age": 25,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-09-30",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1729",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-05-13",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1732",
+  "age": 63,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-06-29",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1735",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-03-08",
+  "postal_code": "400018"
+ },
+ {
+  "member_id": "MBR-1738",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-05-30",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-1741",
+  "age": 71,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-02-17",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-1744",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-06-04",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-1747",
+  "age": 68,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-02-26",
+  "postal_code": "400083"
+ },
+ {
+  "member_id": "MBR-1750",
+  "age": 23,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-02-04",
+  "postal_code": "400022"
+ },
+ {
+  "member_id": "MBR-1753",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-02-21",
+  "postal_code": "400069"
+ },
+ {
+  "member_id": "MBR-1756",
+  "age": 58,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-06-02",
+  "postal_code": "400079"
+ },
+ {
+  "member_id": "MBR-1759",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-09-09",
+  "postal_code": "400053"
+ },
+ {
+  "member_id": "MBR-1762",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-01-19",
+  "postal_code": "400023"
+ },
+ {
+  "member_id": "MBR-1765",
+  "age": 70,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2019-12-24",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1768",
+  "age": 76,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-01-14",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1771",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-10-24",
+  "postal_code": "400058"
+ },
+ {
+  "member_id": "MBR-1774",
+  "age": 74,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-08-09",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1777",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-03-12",
+  "postal_code": "400035"
+ },
+ {
+  "member_id": "MBR-1780",
+  "age": 27,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-10-30",
+  "postal_code": "400083"
+ },
+ {
+  "member_id": "MBR-1783",
+  "age": 24,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-01-04",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-1786",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-05",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1789",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-04-22",
+  "postal_code": "400043"
+ },
+ {
+  "member_id": "MBR-1792",
+  "age": 31,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-03",
+  "postal_code": "400068"
+ },
+ {
+  "member_id": "MBR-1795",
+  "age": 34,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-01-13",
+  "postal_code": "400093"
+ },
+ {
+  "member_id": "MBR-1798",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-12-30",
+  "postal_code": "400075"
+ },
+ {
+  "member_id": "MBR-1801",
+  "age": 85,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-21",
+  "postal_code": "400004"
+ },
+ {
+  "member_id": "MBR-1804",
+  "age": 66,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-04-25",
+  "postal_code": "400006"
+ },
+ {
+  "member_id": "MBR-1807",
+  "age": 63,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-02-09",
+  "postal_code": "400095"
+ },
+ {
+  "member_id": "MBR-1810",
+  "age": 81,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-06-29",
+  "postal_code": "400086"
+ },
+ {
+  "member_id": "MBR-1813",
+  "age": 56,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2022-11-20",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-1816",
+  "age": 48,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2019-12-12",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-1819",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-09-29",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-1822",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-02-10",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-1825",
+  "age": 19,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-11-26",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-1828",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-11-15",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-1831",
+  "age": 28,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-04-25",
+  "postal_code": "400056"
+ },
+ {
+  "member_id": "MBR-1834",
+  "age": 37,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-06-21",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-1837",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-04-07",
+  "postal_code": "400037"
+ },
+ {
+  "member_id": "MBR-1840",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-06-19",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1843",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-06-15",
+  "postal_code": "400064"
+ },
+ {
+  "member_id": "MBR-1846",
+  "age": 6,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-11-23",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-1849",
+  "age": 19,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-09-10",
+  "postal_code": "400022"
+ },
+ {
+  "member_id": "MBR-1852",
+  "age": 66,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2019-12-19",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-1855",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-04-10",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-1858",
+  "age": 80,
+  "low_income_area": true,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-01-04",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-1861",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-12-14",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1864",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-07-14",
+  "postal_code": "400075"
+ },
+ {
+  "member_id": "MBR-1867",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-17",
+  "postal_code": "400085"
+ },
+ {
+  "member_id": "MBR-1870",
+  "age": 30,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-03-28",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-1873",
+  "age": 40,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2019-11-19",
+  "postal_code": "400090"
+ },
+ {
+  "member_id": "MBR-1876",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-12",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-1879",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-02",
+  "postal_code": "400031"
+ },
+ {
+  "member_id": "MBR-1882",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-07-25",
+  "postal_code": "400085"
+ },
+ {
+  "member_id": "MBR-1885",
+  "age": 56,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2022-08-22",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-1888",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-16",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-1891",
+  "age": 16,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-05-01",
+  "postal_code": "400050"
+ },
+ {
+  "member_id": "MBR-1894",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-03-29",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-1897",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-21",
+  "postal_code": "400003"
+ },
+ {
+  "member_id": "MBR-1900",
+  "age": 62,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-01-28",
+  "postal_code": "400090"
+ },
+ {
+  "member_id": "MBR-1903",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-03-16",
+  "postal_code": "400086"
+ },
+ {
+  "member_id": "MBR-1906",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-09-05",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-1909",
+  "age": 7,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-01-23",
+  "postal_code": "400041"
+ },
+ {
+  "member_id": "MBR-1912",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-30",
+  "postal_code": "400092"
+ },
+ {
+  "member_id": "MBR-1915",
+  "age": 75,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-02-10",
+  "postal_code": "400062"
+ },
+ {
+  "member_id": "MBR-1918",
+  "age": 20,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-10-26",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-1921",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-09-27",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-1924",
+  "age": 69,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-29",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1927",
+  "age": 51,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2020-06-14",
+  "postal_code": "400027"
+ },
+ {
+  "member_id": "MBR-1930",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-24",
+  "postal_code": "400044"
+ },
+ {
+  "member_id": "MBR-1933",
+  "age": 23,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-04-23",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-1936",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-11-30",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-1939",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-02-22",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-1942",
+  "age": 83,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-16",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1945",
+  "age": 65,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-07-13",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-1948",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-02-06",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-1951",
+  "age": 44,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-09-01",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-1954",
+  "age": 27,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-11",
+  "postal_code": "400038"
+ },
+ {
+  "member_id": "MBR-1957",
+  "age": 15,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-08",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-1960",
+  "age": 48,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-02-05",
+  "postal_code": "400087"
+ },
+ {
+  "member_id": "MBR-1963",
+  "age": 32,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-29",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-1966",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-12-29",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-1969",
+  "age": 62,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-08-19",
+  "postal_code": "400039"
+ },
+ {
+  "member_id": "MBR-1972",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-09-13",
+  "postal_code": "400068"
+ },
+ {
+  "member_id": "MBR-1975",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-10-20",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-1978",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-03-30",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-1981",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-14",
+  "postal_code": "400045"
+ },
+ {
+  "member_id": "MBR-1984",
+  "age": 48,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-01-26",
+  "postal_code": "400089"
+ },
+ {
+  "member_id": "MBR-1987",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-09-27",
+  "postal_code": "400071"
+ },
+ {
+  "member_id": "MBR-1990",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-05",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-1993",
+  "age": 10,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-09-22",
+  "postal_code": "400015"
+ },
+ {
+  "member_id": "MBR-1996",
+  "age": 31,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-10-31",
+  "postal_code": "400064"
+ },
+ {
+  "member_id": "MBR-1999",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-13",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-2002",
+  "age": 41,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2022-08-03",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-2005",
+  "age": 32,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-10-04",
+  "postal_code": "400038"
+ },
+ {
+  "member_id": "MBR-2008",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-06-23",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-2011",
+  "age": 30,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-05-16",
+  "postal_code": "400079"
+ },
+ {
+  "member_id": "MBR-2014",
+  "age": 75,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-08-16",
+  "postal_code": "400062"
+ },
+ {
+  "member_id": "MBR-2017",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-19",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-2020",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-07-28",
+  "postal_code": "400061"
+ },
+ {
+  "member_id": "MBR-2023",
+  "age": 19,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-11-23",
+  "postal_code": "400056"
+ },
+ {
+  "member_id": "MBR-2026",
+  "age": 38,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-11-05",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-2029",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-08-13",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-2032",
+  "age": 84,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-09-22",
+  "postal_code": "400016"
+ },
+ {
+  "member_id": "MBR-2035",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-10-23",
+  "postal_code": "400017"
+ },
+ {
+  "member_id": "MBR-2038",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-04-02",
+  "postal_code": "400093"
+ },
+ {
+  "member_id": "MBR-2041",
+  "age": 32,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-06-06",
+  "postal_code": "400074"
+ },
+ {
+  "member_id": "MBR-2044",
+  "age": 61,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-10-28",
+  "postal_code": "400078"
+ },
+ {
+  "member_id": "MBR-2047",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-09-05",
+  "postal_code": "400070"
+ },
+ {
+  "member_id": "MBR-2050",
+  "age": 25,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-04-18",
+  "postal_code": "400006"
+ },
+ {
+  "member_id": "MBR-2053",
+  "age": 29,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-12-25",
+  "postal_code": "400098"
+ },
+ {
+  "member_id": "MBR-2056",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-12-03",
+  "postal_code": "400084"
+ },
+ {
+  "member_id": "MBR-2059",
+  "age": 70,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-10-02",
+  "postal_code": "400072"
+ },
+ {
+  "member_id": "MBR-2062",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-09-13",
+  "postal_code": "400003"
+ },
+ {
+  "member_id": "MBR-2065",
+  "age": 9,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-09-11",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-2068",
+  "age": 10,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-04-05",
+  "postal_code": "400090"
+ },
+ {
+  "member_id": "MBR-2071",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-02-10",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2074",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-10-27",
+  "postal_code": "400099"
+ },
+ {
+  "member_id": "MBR-2077",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-01-09",
+  "postal_code": "400083"
+ },
+ {
+  "member_id": "MBR-2080",
+  "age": 6,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-06-18",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2083",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-12-29",
+  "postal_code": "400028"
+ },
+ {
+  "member_id": "MBR-2086",
+  "age": 52,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-16",
+  "postal_code": "400094"
+ },
+ {
+  "member_id": "MBR-2089",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-06-08",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-2092",
+  "age": 37,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-04",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-2095",
+  "age": 9,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-26",
+  "postal_code": "400086"
+ },
+ {
+  "member_id": "MBR-2098",
+  "age": 59,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-06-04",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-2101",
+  "age": 40,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2021-04-22",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-2104",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-01-27",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-2107",
+  "age": 69,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-07",
+  "postal_code": "400087"
+ },
+ {
+  "member_id": "MBR-2110",
+  "age": 70,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-12-16",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-2113",
+  "age": 88,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-12-17",
+  "postal_code": "400097"
+ },
+ {
+  "member_id": "MBR-2116",
+  "age": 31,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-02-03",
+  "postal_code": "400093"
+ },
+ {
+  "member_id": "MBR-2119",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-02-12",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-2122",
+  "age": 1,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-05-18",
+  "postal_code": "400078"
+ },
+ {
+  "member_id": "MBR-2125",
+  "age": 19,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-15",
+  "postal_code": "400037"
+ },
+ {
+  "member_id": "MBR-2128",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-03-13",
+  "postal_code": "400098"
+ },
+ {
+  "member_id": "MBR-2131",
+  "age": 30,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-14",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-2134",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-06-01",
+  "postal_code": "400088"
+ },
+ {
+  "member_id": "MBR-2137",
+  "age": 10,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-07-17",
+  "postal_code": "400069"
+ },
+ {
+  "member_id": "MBR-2140",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-03-05",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-2143",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-17",
+  "postal_code": "400091"
+ },
+ {
+  "member_id": "MBR-2146",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-28",
+  "postal_code": "400070"
+ },
+ {
+  "member_id": "MBR-2149",
+  "age": 60,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-02-19",
+  "postal_code": "400030"
+ },
+ {
+  "member_id": "MBR-2152",
+  "age": 27,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-10-24",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-2155",
+  "age": 59,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-04-18",
+  "postal_code": "400025"
+ },
+ {
+  "member_id": "MBR-2158",
+  "age": 74,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-25",
+  "postal_code": "400067"
+ },
+ {
+  "member_id": "MBR-2161",
+  "age": 64,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-03-28",
+  "postal_code": "400064"
+ },
+ {
+  "member_id": "MBR-2164",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-08-12",
+  "postal_code": "400041"
+ },
+ {
+  "member_id": "MBR-2167",
+  "age": 52,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-11-30",
+  "postal_code": "400067"
+ },
+ {
+  "member_id": "MBR-2170",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-03-13",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-2173",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-02-05",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-2176",
+  "age": 76,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-11",
+  "postal_code": "400044"
+ },
+ {
+  "member_id": "MBR-2179",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-05-14",
+  "postal_code": "400011"
+ },
+ {
+  "member_id": "MBR-2182",
+  "age": 50,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-10-03",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-2185",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-10-25",
+  "postal_code": "400091"
+ },
+ {
+  "member_id": "MBR-2188",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-09-25",
+  "postal_code": "400065"
+ },
+ {
+  "member_id": "MBR-2191",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-08-04",
+  "postal_code": "400048"
+ },
+ {
+  "member_id": "MBR-2194",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-01-19",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-2197",
+  "age": 33,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2023-03-23",
+  "postal_code": "400034"
+ },
+ {
+  "member_id": "MBR-2200",
+  "age": 52,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-03-05",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-2203",
+  "age": 16,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2022-05-16",
+  "postal_code": "400087"
+ },
+ {
+  "member_id": "MBR-2206",
+  "age": 45,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-11-05",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-2209",
+  "age": 20,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-10-16",
+  "postal_code": "400048"
+ },
+ {
+  "member_id": "MBR-2212",
+  "age": 34,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-09-09",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2215",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-15",
+  "postal_code": "400021"
+ },
+ {
+  "member_id": "MBR-2218",
+  "age": 58,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-09-14",
+  "postal_code": "400058"
+ },
+ {
+  "member_id": "MBR-2221",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-05-14",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-2224",
+  "age": 91,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-11-03",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-2227",
+  "age": 69,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2023-03-03",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-2230",
+  "age": 40,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-12-29",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-2233",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-05-06",
+  "postal_code": "400035"
+ },
+ {
+  "member_id": "MBR-2236",
+  "age": 31,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-09-25",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-2239",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-11-06",
+  "postal_code": "400020"
+ },
+ {
+  "member_id": "MBR-2242",
+  "age": 52,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-05-07",
+  "postal_code": "400062"
+ },
+ {
+  "member_id": "MBR-2245",
+  "age": 45,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-01-16",
+  "postal_code": "400097"
+ },
+ {
+  "member_id": "MBR-2248",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-02-25",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-2251",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-07-30",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-2254",
+  "age": 72,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2020-08-22",
+  "postal_code": "400044"
+ },
+ {
+  "member_id": "MBR-2257",
+  "age": 1,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-06-24",
+  "postal_code": "400068"
+ },
+ {
+  "member_id": "MBR-2260",
+  "age": 41,
+  "low_income_area": true,
+  "plan_type": "group",
+  "policy_start_date": "2022-04-06",
+  "postal_code": "400036"
+ },
+ {
+  "member_id": "MBR-2263",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-06-24",
+  "postal_code": "400067"
+ },
+ {
+  "member_id": "MBR-2266",
+  "age": 49,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-12-30",
+  "postal_code": "400078"
+ },
+ {
+  "member_id": "MBR-2269",
+  "age": 16,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-07-03",
+  "postal_code": "400027"
+ },
+ {
+  "member_id": "MBR-2272",
+  "age": 64,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-03-21",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-2275",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-07-28",
+  "postal_code": "400053"
+ },
+ {
+  "member_id": "MBR-2278",
+  "age": 68,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-11-27",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-2281",
+  "age": 10,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-12-25",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2284",
+  "age": 18,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-02-04",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-2287",
+  "age": 63,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-04-13",
+  "postal_code": "400021"
+ },
+ {
+  "member_id": "MBR-2290",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-28",
+  "postal_code": "400058"
+ },
+ {
+  "member_id": "MBR-2293",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-10-23",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-2296",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-05-07",
+  "postal_code": "400074"
+ },
+ {
+  "member_id": "MBR-2299",
+  "age": 11,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-07",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-2302",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-05-16",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-2305",
+  "age": 39,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-01-07",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-2308",
+  "age": 54,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2023-05-19",
+  "postal_code": "400013"
+ },
+ {
+  "member_id": "MBR-2311",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-01-08",
+  "postal_code": "400003"
+ },
+ {
+  "member_id": "MBR-2314",
+  "age": 60,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-30",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-2317",
+  "age": 22,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-06-26",
+  "postal_code": "400006"
+ },
+ {
+  "member_id": "MBR-2320",
+  "age": 42,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-14",
+  "postal_code": "400016"
+ },
+ {
+  "member_id": "MBR-2323",
+  "age": 67,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-03-20",
+  "postal_code": "400019"
+ },
+ {
+  "member_id": "MBR-2326",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-12-05",
+  "postal_code": "400050"
+ },
+ {
+  "member_id": "MBR-2329",
+  "age": 27,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-04-08",
+  "postal_code": "400007"
+ },
+ {
+  "member_id": "MBR-2332",
+  "age": 48,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-01-16",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-2335",
+  "age": 28,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-29",
+  "postal_code": "400072"
+ },
+ {
+  "member_id": "MBR-2338",
+  "age": 67,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-02-13",
+  "postal_code": "400085"
+ },
+ {
+  "member_id": "MBR-2341",
+  "age": 53,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-16",
+  "postal_code": "400068"
+ },
+ {
+  "member_id": "MBR-2344",
+  "age": 52,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2022-03-23",
+  "postal_code": "400018"
+ },
+ {
+  "member_id": "MBR-2347",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-12-10",
+  "postal_code": "400082"
+ },
+ {
+  "member_id": "MBR-2350",
+  "age": 92,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2019-11-22",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-2353",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2019-12-19",
+  "postal_code": "400070"
+ },
+ {
+  "member_id": "MBR-2356",
+  "age": 47,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2020-07-27",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2359",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-11-16",
+  "postal_code": "400015"
+ },
+ {
+  "member_id": "MBR-2362",
+  "age": 36,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2023-01-05",
+  "postal_code": "400060"
+ },
+ {
+  "member_id": "MBR-2365",
+  "age": 71,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2022-10-17",
+  "postal_code": "400066"
+ },
+ {
+  "member_id": "MBR-2368",
+  "age": 56,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-12-13",
+  "postal_code": "400032"
+ },
+ {
+  "member_id": "MBR-2371",
+  "age": 57,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-09",
+  "postal_code": "400079"
+ },
+ {
+  "member_id": "MBR-2374",
+  "age": 41,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-11-26",
+  "postal_code": "400071"
+ },
+ {
+  "member_id": "MBR-2377",
+  "age": 33,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-09",
+  "postal_code": "400040"
+ },
+ {
+  "member_id": "MBR-2380",
+  "age": 62,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-03-15",
+  "postal_code": "400051"
+ },
+ {
+  "member_id": "MBR-2383",
+  "age": 49,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-07-30",
+  "postal_code": "400031"
+ },
+ {
+  "member_id": "MBR-2386",
+  "age": 38,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-10-30",
+  "postal_code": "400008"
+ },
+ {
+  "member_id": "MBR-2389",
+  "age": 61,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-05-25",
+  "postal_code": "400009"
+ },
+ {
+  "member_id": "MBR-2392",
+  "age": 32,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-01-08",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-2395",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2020-07-26",
+  "postal_code": "400029"
+ },
+ {
+  "member_id": "MBR-2398",
+  "age": 74,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2019-09-28",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-2401",
+  "age": 44,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-01-12",
+  "postal_code": "400079"
+ },
+ {
+  "member_id": "MBR-2404",
+  "age": 66,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2021-12-24",
+  "postal_code": "400081"
+ },
+ {
+  "member_id": "MBR-2407",
+  "age": 17,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-03-04",
+  "postal_code": "400014"
+ },
+ {
+  "member_id": "MBR-2410",
+  "age": 78,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-04-12",
+  "postal_code": "400020"
+ },
+ {
+  "member_id": "MBR-2413",
+  "age": 46,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-01-02",
+  "postal_code": "400078"
+ },
+ {
+  "member_id": "MBR-2416",
+  "age": 74,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-07-05",
+  "postal_code": "400038"
+ },
+ {
+  "member_id": "MBR-2419",
+  "age": 69,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2019-11-08",
+  "postal_code": "400042"
+ },
+ {
+  "member_id": "MBR-2422",
+  "age": 77,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2021-10-21",
+  "postal_code": "400024"
+ },
+ {
+  "member_id": "MBR-2425",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-01-16",
+  "postal_code": "400074"
+ },
+ {
+  "member_id": "MBR-2428",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-09-02",
+  "postal_code": "400078"
+ },
+ {
+  "member_id": "MBR-2431",
+  "age": 55,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-05-05",
+  "postal_code": "400055"
+ },
+ {
+  "member_id": "MBR-2434",
+  "age": 82,
+  "low_income_area": true,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2020-09-12",
+  "postal_code": "400039"
+ },
+ {
+  "member_id": "MBR-2437",
+  "age": 16,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-06-20",
+  "postal_code": "400080"
+ },
+ {
+  "member_id": "MBR-2440",
+  "age": 68,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-11-19",
+  "postal_code": "400046"
+ },
+ {
+  "member_id": "MBR-2443",
+  "age": 45,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-12-12",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2446",
+  "age": 35,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-09-05",
+  "postal_code": "400052"
+ },
+ {
+  "member_id": "MBR-2449",
+  "age": 25,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-06-07",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-2452",
+  "age": 25,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-07",
+  "postal_code": "400096"
+ },
+ {
+  "member_id": "MBR-2455",
+  "age": 47,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-06-15",
+  "postal_code": "400041"
+ },
+ {
+  "member_id": "MBR-2458",
+  "age": 40,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2022-11-13",
+  "postal_code": "400084"
+ },
+ {
+  "member_id": "MBR-2461",
+  "age": 51,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-19",
+  "postal_code": "400054"
+ },
+ {
+  "member_id": "MBR-2464",
+  "age": 30,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-08-27",
+  "postal_code": "400025"
+ },
+ {
+  "member_id": "MBR-2467",
+  "age": 29,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2019-12-15",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-2470",
+  "age": 31,
+  "low_income_area": false,
+  "plan_type": "individual",
+  "policy_start_date": "2021-03-07",
+  "postal_code": "400002"
+ },
+ {
+  "member_id": "MBR-2473",
+  "age": 35,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-05-21",
+  "postal_code": "400001"
+ },
+ {
+  "member_id": "MBR-2476",
+  "age": 62,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2019-09-28",
+  "postal_code": "400004"
+ },
+ {
+  "member_id": "MBR-2479",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2020-05-20",
+  "postal_code": "400073"
+ },
+ {
+  "member_id": "MBR-2482",
+  "age": 43,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-04-07",
+  "postal_code": "400026"
+ },
+ {
+  "member_id": "MBR-2485",
+  "age": 73,
+  "low_income_area": false,
+  "plan_type": "senior_citizen",
+  "policy_start_date": "2022-08-10",
+  "postal_code": "400067"
+ },
+ {
+  "member_id": "MBR-2488",
+  "age": 46,
+  "low_income_area": true,
+  "plan_type": "family_floater",
+  "policy_start_date": "2020-07-22",
+  "postal_code": "400063"
+ },
+ {
+  "member_id": "MBR-2491",
+  "age": 36,
+  "low_income_area": false,
+  "plan_type": "group",
+  "policy_start_date": "2023-02-20",
+  "postal_code": "400084"
+ },
+ {
+  "member_id": "MBR-2494",
+  "age": 78,
+  "low_income_area": false,
+  "plan_type": "family_floater",
+  "policy_start_date": "2021-12-10",
+  "postal_code": "400022"
+ },
+ {
+  "member_id": "MBR-2497",
+  "age": 48,
+  "low_income_area": true,
+  "plan_type": "individual",
+  "policy_start_date": "2020-03-22",
+  "postal_code": "400009"
+ }
+]

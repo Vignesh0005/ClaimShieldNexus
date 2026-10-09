@@ -1,0 +1,4406 @@
+{
+  "version": "v1.0.0",
+  "sample_claims": 63,
+  "scored_claims": 56,
+  "training_normal_rows": 1916,
+  "training_feature_ranges": {
+    "total_billed": {
+      "min": 71.53,
+      "p01": 74.1775,
+      "median": 159.04500000000002,
+      "p99": 318.54999999999995,
+      "max": 337.13
+    },
+    "n_lines": {
+      "min": 1.0,
+      "p01": 1.0,
+      "median": 1.0,
+      "p99": 3.0,
+      "max": 3.0
+    },
+    "total_units": {
+      "min": 1.0,
+      "p01": 1.0,
+      "median": 1.0,
+      "p99": 3.0,
+      "max": 3.0
+    },
+    "n_diagnoses": {
+      "min": 1.0,
+      "p01": 1.0,
+      "median": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "provider_avg_claim": {
+      "min": 74.22,
+      "p01": 116.358,
+      "median": 162.175,
+      "p99": 217.0579999999999,
+      "max": 773.64
+    },
+    "provider_peer_ratio": {
+      "min": 0.053,
+      "p01": 0.083,
+      "median": 0.116,
+      "p99": 0.155,
+      "max": 0.553
+    },
+    "billed_vs_provider_avg": {
+      "min": 0.053,
+      "p01": 0.089,
+      "median": 0.921,
+      "p99": 2.037999999999998,
+      "max": 2.608
+    },
+    "provider_claims_30d": {
+      "min": 1.0,
+      "p01": 1.0,
+      "median": 8.0,
+      "p99": 21.699999999999818,
+      "max": 73.0
+    },
+    "provider_members_30d": {
+      "min": 1.0,
+      "p01": 1.0,
+      "median": 7.0,
+      "p99": 16.0,
+      "max": 37.0
+    },
+    "visits_per_member_30d": {
+      "min": 1.0,
+      "p01": 1.0,
+      "median": 1.0,
+      "p99": 2.0,
+      "max": 3.0
+    },
+    "level5_em_rate": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 0.1,
+      "p99": 0.5,
+      "max": 1.0
+    },
+    "duplicate_fields": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 2.0,
+      "p99": 4.0,
+      "max": 5.0
+    },
+    "billed_hours_on_date": {
+      "min": 0.25,
+      "p01": 0.25,
+      "median": 0.42,
+      "p99": 1.42,
+      "max": 1.83
+    },
+    "unbundled_components": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "has_referrer": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 0.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "member_age": {
+      "min": 1.0,
+      "p01": 7.0,
+      "median": 46.0,
+      "p99": 92.0,
+      "max": 92.0
+    }
+  },
+  "detectors": {
+    "lof": {
+      "low": 1.0825787748715567,
+      "high": 9.232075236515337,
+      "clip_count": 14,
+      "clip_share": 0.25,
+      "heldout_normal_above_threshold": 0.0,
+      "heldout_normal_percentiles": [
+        0.0,
+        0.035690300474980244,
+        0.16330068875126216
+      ],
+      "claims": [
+        {
+          "claim_id": "CLM-98194955",
+          "raw": 11.086895921997916,
+          "score": 1.0,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 1850.0,
+              "std_from_median": 50.36,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1850.0,
+              "std_from_median": 31.43,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 0.12,
+              "std_from_median": 2.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 0.0,
+              "std_from_median": 1.73,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97258058",
+          "raw": 16.92016302408345,
+          "score": 1.0,
+          "risk": 0.8075,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 8.0,
+              "std_from_median": 8000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 2300.0,
+              "std_from_median": 63.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 2300.0,
+              "std_from_median": 39.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 8.0,
+              "std_from_median": 9.59,
+              "outside_training_range": true
+            },
+            {
+              "feature": "n_lines",
+              "value": 8.0,
+              "std_from_median": 9.59,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97096208",
+          "raw": 271.5786750300492,
+          "score": 1.0,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 35000.0,
+              "std_from_median": 1039.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 25.0,
+              "std_from_median": 1039.04,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 35000.0,
+              "std_from_median": 647.55,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 100.0,
+              "std_from_median": 135.58,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 25.0,
+              "std_from_median": 101.25,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97053272",
+          "raw": 74.58838278602705,
+          "score": 1.0,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 1.0,
+              "std_from_median": 1000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 10050.0,
+              "std_from_median": 295.05,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 7.179,
+              "std_from_median": 294.92,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 10050.0,
+              "std_from_median": 183.83,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 7.179,
+              "std_from_median": 16.45,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97044740",
+          "raw": 15.786016388634994,
+          "score": 1.0,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 2300.0,
+              "std_from_median": 63.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 1.643,
+              "std_from_median": 63.76,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 2300.0,
+              "std_from_median": 39.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 1.643,
+              "std_from_median": 1.9,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97039432",
+          "raw": 8.40850503303354,
+          "score": 0.8989421975507331,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 13.0,
+              "std_from_median": 36.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 703.85,
+              "std_from_median": 16.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.503,
+              "std_from_median": 16.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 450.0,
+              "std_from_median": 5.41,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97038136",
+          "raw": 7.960932297653825,
+          "score": 0.8440219043171265,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 12.0,
+              "std_from_median": 33.47,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 725.0,
+              "std_from_median": 16.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.518,
+              "std_from_median": 16.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 1000.0,
+              "std_from_median": 15.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97035739",
+          "raw": 7.817201077628267,
+          "score": 0.8263850821279226,
+          "risk": 0.7225,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 11.0,
+              "std_from_median": 30.42,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 700.0,
+              "std_from_median": 16.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.5,
+              "std_from_median": 16.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 550.0,
+              "std_from_median": 7.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97034005",
+          "raw": 7.4061024386436864,
+          "score": 0.7759404146666325,
+          "risk": 0.68,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 10.0,
+              "std_from_median": 27.38,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 715.0,
+              "std_from_median": 16.5,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.511,
+              "std_from_median": 16.49,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 850.0,
+              "std_from_median": 12.84,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97032563",
+          "raw": 7.067410357465486,
+          "score": 0.7343805363634417,
+          "risk": 0.6375,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 9.0,
+              "std_from_median": 24.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 700.0,
+              "std_from_median": 16.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.5,
+              "std_from_median": 16.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97030584",
+          "raw": 6.527434409692456,
+          "score": 0.6681217251209965,
+          "risk": 0.595,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 8.0,
+              "std_from_median": 21.3,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 675.0,
+              "std_from_median": 15.3,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.482,
+              "std_from_median": 15.28,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97027936",
+          "raw": 6.234328553425979,
+          "score": 0.6321555942507027,
+          "risk": 0.5525,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 7.0,
+              "std_from_median": 18.25,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 642.86,
+              "std_from_median": 14.34,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.459,
+              "std_from_median": 14.32,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 550.0,
+              "std_from_median": 7.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97025559",
+          "raw": 5.807259096150118,
+          "score": 0.5797511961034189,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "total_billed",
+              "value": 1000.0,
+              "std_from_median": 15.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 6.0,
+              "std_from_median": 15.21,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 658.33,
+              "std_from_median": 14.81,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.47,
+              "std_from_median": 14.78,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 1.695,
+              "std_from_median": 2.03,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97022949",
+          "raw": 5.802065857707371,
+          "score": 0.5791139495609865,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 590.0,
+              "std_from_median": 12.77,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.421,
+              "std_from_median": 12.74,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 5.0,
+              "std_from_median": 12.17,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97021131",
+          "raw": 5.797827047068365,
+          "score": 0.5785938179603464,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 637.5,
+              "std_from_median": 14.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.455,
+              "std_from_median": 14.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 4.0,
+              "std_from_median": 9.13,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 500.0,
+              "std_from_median": 6.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97019310",
+          "raw": 5.878238725205761,
+          "score": 0.5884608911612318,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 683.33,
+              "std_from_median": 15.55,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.488,
+              "std_from_median": 15.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 550.0,
+              "std_from_median": 7.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 3.0,
+              "std_from_median": 6.08,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97017311",
+          "raw": 6.112684839330982,
+          "score": 0.6172290629407594,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 750.0,
+              "std_from_median": 17.54,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.536,
+              "std_from_median": 17.54,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 1050.0,
+              "std_from_median": 16.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 2.333,
+              "std_from_median": 3.71,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97014547",
+          "raw": 3.558018892185035,
+          "score": 0.3037537507948281,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 450.0,
+              "std_from_median": 8.59,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.321,
+              "std_from_median": 8.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 450.0,
+              "std_from_median": 5.41,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96987018",
+          "raw": 7.266389878154797,
+          "score": 0.7587967100038405,
+          "risk": 0.68,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 10.0,
+              "std_from_median": 27.38,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1050.0,
+              "std_from_median": 16.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.504,
+              "std_from_median": 16.2,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 705.0,
+              "std_from_median": 16.2,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96984325",
+          "raw": 6.734531351451636,
+          "score": 0.6935339628873294,
+          "risk": 0.6375,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 9.0,
+              "std_from_median": 24.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 666.67,
+              "std_from_median": 15.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.476,
+              "std_from_median": 15.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 950.0,
+              "std_from_median": 14.7,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96981575",
+          "raw": 6.5899206780310395,
+          "score": 0.6757892256386886,
+          "risk": 0.595,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 8.0,
+              "std_from_median": 21.3,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 631.25,
+              "std_from_median": 14.0,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.451,
+              "std_from_median": 13.99,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 500.0,
+              "std_from_median": 6.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96980284",
+          "raw": 5.965287570214823,
+          "score": 0.5991423909837992,
+          "risk": 0.5525,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 7.0,
+              "std_from_median": 18.25,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96978918",
+          "raw": 5.852226036103827,
+          "score": 0.5852689529569066,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 6.0,
+              "std_from_median": 15.21,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.435,
+              "std_from_median": 13.32,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 608.33,
+              "std_from_median": 13.31,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96977703",
+          "raw": 5.893273666571547,
+          "score": 0.5903057832274532,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 5.0,
+              "std_from_median": 12.17,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 700.0,
+              "std_from_median": 10.05,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96975769",
+          "raw": 5.704809838673338,
+          "score": 0.5671799583638891,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 637.5,
+              "std_from_median": 14.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.455,
+              "std_from_median": 14.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 4.0,
+              "std_from_median": 9.13,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 600.0,
+              "std_from_median": 8.2,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96972663",
+          "raw": 5.902625058252327,
+          "score": 0.5914532641454207,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 3.0,
+              "std_from_median": 6.08,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96970477",
+          "raw": 6.281227826746025,
+          "score": 0.6379104618723748,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.554,
+              "std_from_median": 18.29,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 775.0,
+              "std_from_median": 18.29,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 600.0,
+              "std_from_median": 8.2,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96968966",
+          "raw": 7.291169631678292,
+          "score": 0.7618373584218284,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 950.0,
+              "std_from_median": 23.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.679,
+              "std_from_median": 23.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 950.0,
+              "std_from_median": 14.7,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96966063",
+          "raw": 4.914595987654888,
+          "score": 0.4702152127826558,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 650.0,
+              "std_from_median": 9.12,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 0.0,
+              "std_from_median": 1.73,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96962936",
+          "raw": 176.4204693038824,
+          "score": 1.0,
+          "risk": 0.7905,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 22800.0,
+              "std_from_median": 675.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 16.286,
+              "std_from_median": 675.18,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 22800.0,
+              "std_from_median": 420.8,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 76.0,
+              "std_from_median": 102.71,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 19.0,
+              "std_from_median": 76.53,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96960708",
+          "raw": 28.66103309442452,
+          "score": 1.0,
+          "risk": 0.663,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 3950.0,
+              "std_from_median": 113.03,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 2.821,
+              "std_from_median": 112.95,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 3950.0,
+              "std_from_median": 70.46,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 2.821,
+              "std_from_median": 4.99,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96957952",
+          "raw": 24.919573039277665,
+          "score": 1.0,
+          "risk": 0.8075,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 9.0,
+              "std_from_median": 9000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 3300.0,
+              "std_from_median": 93.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 2.357,
+              "std_from_median": 93.57,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 3300.0,
+              "std_from_median": 58.38,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 9.0,
+              "std_from_median": 10.96,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96956215",
+          "raw": 9.25544567017103,
+          "score": 1.0,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 1250.0,
+              "std_from_median": 32.46,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.893,
+              "std_from_median": 32.44,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1250.0,
+              "std_from_median": 20.28,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96953209",
+          "raw": 8.714993830841067,
+          "score": 0.9365505085979295,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 1250.0,
+              "std_from_median": 32.46,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.893,
+              "std_from_median": 32.44,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1250.0,
+              "std_from_median": 20.28,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96890022",
+          "raw": 7.43677481027193,
+          "score": 0.7797041283847261,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 875.0,
+              "std_from_median": 21.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.625,
+              "std_from_median": 21.25,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 6.0,
+              "std_from_median": 15.21,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 750.0,
+              "std_from_median": 10.98,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96888196",
+          "raw": 6.922648995594991,
+          "score": 0.7166173085920295,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1050.0,
+              "std_from_median": 16.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 5.0,
+              "std_from_median": 12.17,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96886367",
+          "raw": 7.244986812003113,
+          "score": 0.7561704046544954,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 862.5,
+              "std_from_median": 20.9,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.616,
+              "std_from_median": 20.88,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 750.0,
+              "std_from_median": 10.98,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 4.0,
+              "std_from_median": 9.13,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96884887",
+          "raw": 7.004037842280519,
+          "score": 0.7266042871824973,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 3.0,
+              "std_from_median": 6.08,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96883098",
+          "raw": 6.786134516508971,
+          "score": 0.6998660308009985,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1100.0,
+              "std_from_median": 17.49,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96877229",
+          "raw": 5.510561016751106,
+          "score": 0.5433442744248288,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 700.0,
+              "std_from_median": 16.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.5,
+              "std_from_median": 16.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 700.0,
+              "std_from_median": 10.05,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96866901",
+          "raw": 6.871484247219198,
+          "score": 0.7103390374599905,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 0.0,
+              "std_from_median": 1.73,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96857185",
+          "raw": 143.45547553834749,
+          "score": 1.0,
+          "risk": 0.5765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 18600.0,
+              "std_from_median": 550.19,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 13.286,
+              "std_from_median": 549.92,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 18600.0,
+              "std_from_median": 342.74,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 62.0,
+              "std_from_median": 83.54,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 15.5,
+              "std_from_median": 62.12,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96846842",
+          "raw": 64.90304332950568,
+          "score": 1.0,
+          "risk": 0.731,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 8550.0,
+              "std_from_median": 250.29,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 6.107,
+              "std_from_median": 250.16,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 8550.0,
+              "std_from_median": 155.95,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 6.107,
+              "std_from_median": 13.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 4.0,
+              "std_from_median": 4.11,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96836462",
+          "raw": 18.51232840878268,
+          "score": 1.0,
+          "risk": 0.799,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 7.0,
+              "std_from_median": 7000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 2350.0,
+              "std_from_median": 65.28,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 1.679,
+              "std_from_median": 65.26,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 2350.0,
+              "std_from_median": 40.72,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 7.0,
+              "std_from_median": 8.22,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-INJ-36BF45-002",
+          "raw": 3.0070645263553053,
+          "score": 0.23614781116127675,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "level5_em_rate",
+              "value": 1.0,
+              "std_from_median": 8.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.67,
+              "std_from_median": 5.15,
+              "outside_training_range": false
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 240.0,
+              "std_from_median": 2.32,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-INJ-36BF45-001",
+          "raw": 2.5440611150335464,
+          "score": 0.17933406647153802,
+          "risk": 0.059,
+          "furthest_features": [
+            {
+              "feature": "level5_em_rate",
+              "value": 1.0,
+              "std_from_median": 8.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 240.0,
+              "std_from_median": 2.32,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.171,
+              "std_from_median": 2.3,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 0.171,
+              "std_from_median": 1.97,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-94087300",
+          "raw": 1198.9958817283375,
+          "score": 1.0,
+          "risk": 0.425,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 156789.0,
+              "std_from_median": 4673.76,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 111.992,
+              "std_from_median": 4671.41,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 156789.0,
+              "std_from_median": 2911.09,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 111.992,
+              "std_from_median": 291.89,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-93543753",
+          "raw": 4.468980418430535,
+          "score": 0.41553507747347734,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-93542557",
+          "raw": 2.9676073147165045,
+          "score": 0.23130613636277736,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85830315",
+          "raw": 4.468980418430535,
+          "score": 0.41553507747347734,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85829117",
+          "raw": 2.9676073147165045,
+          "score": 0.23130613636277736,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85763801",
+          "raw": 4.468980418430535,
+          "score": 0.41553507747347734,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85763143",
+          "raw": 2.9676073147165045,
+          "score": 0.23130613636277736,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85600247",
+          "raw": 4.468980418430535,
+          "score": 0.41553507747347734,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85599508",
+          "raw": 2.9676073147165045,
+          "score": 0.23130613636277736,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-10000050",
+          "raw": 94.06188762066827,
+          "score": 1.0,
+          "risk": 0.3794,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 12250.0,
+              "std_from_median": 360.7,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 8.75,
+              "std_from_median": 360.52,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 12250.0,
+              "std_from_median": 224.72,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 8.75,
+              "std_from_median": 20.57,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 2.0,
+              "std_from_median": 6.51,
+              "outside_training_range": true
+            }
+          ]
+        }
+      ]
+    },
+    "isolation_forest": {
+      "low": 0.41827228698039637,
+      "high": 0.771818624638696,
+      "clip_count": 0,
+      "clip_share": 0.0,
+      "heldout_normal_above_threshold": 0.001564945226917058,
+      "heldout_normal_percentiles": [
+        0.0,
+        0.24243695882456356,
+        0.49585947512018747
+      ],
+      "claims": [
+        {
+          "claim_id": "CLM-98194955",
+          "raw": 0.6113910557957023,
+          "score": 0.546233260665124,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 1850.0,
+              "std_from_median": 50.36,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1850.0,
+              "std_from_median": 31.43,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 0.12,
+              "std_from_median": 2.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 0.0,
+              "std_from_median": 1.73,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97258058",
+          "raw": 0.6352690606086713,
+          "score": 0.6137718044699446,
+          "risk": 0.8075,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 8.0,
+              "std_from_median": 8000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 2300.0,
+              "std_from_median": 63.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 2300.0,
+              "std_from_median": 39.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 8.0,
+              "std_from_median": 9.59,
+              "outside_training_range": true
+            },
+            {
+              "feature": "n_lines",
+              "value": 8.0,
+              "std_from_median": 9.59,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97096208",
+          "raw": 0.7138669244708984,
+          "score": 0.8360845694184292,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 35000.0,
+              "std_from_median": 1039.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 25.0,
+              "std_from_median": 1039.04,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 35000.0,
+              "std_from_median": 647.55,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 100.0,
+              "std_from_median": 135.58,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 25.0,
+              "std_from_median": 101.25,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97053272",
+          "raw": 0.6846830725850965,
+          "score": 0.7535385244527255,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 1.0,
+              "std_from_median": 1000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 10050.0,
+              "std_from_median": 295.05,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 7.179,
+              "std_from_median": 294.92,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 10050.0,
+              "std_from_median": 183.83,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 7.179,
+              "std_from_median": 16.45,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97044740",
+          "raw": 0.6539588201895711,
+          "score": 0.6666354819858559,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 2300.0,
+              "std_from_median": 63.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 1.643,
+              "std_from_median": 63.76,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 2300.0,
+              "std_from_median": 39.79,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 1.643,
+              "std_from_median": 1.9,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97039432",
+          "raw": 0.67788792142255,
+          "score": 0.7343185511741055,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 13.0,
+              "std_from_median": 36.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 703.85,
+              "std_from_median": 16.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.503,
+              "std_from_median": 16.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 450.0,
+              "std_from_median": 5.41,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97038136",
+          "raw": 0.6818104947266621,
+          "score": 0.7454134852359121,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 12.0,
+              "std_from_median": 33.47,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 725.0,
+              "std_from_median": 16.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.518,
+              "std_from_median": 16.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 1000.0,
+              "std_from_median": 15.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97035739",
+          "raw": 0.6727424423943008,
+          "score": 0.719764648389169,
+          "risk": 0.7225,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 11.0,
+              "std_from_median": 30.42,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 700.0,
+              "std_from_median": 16.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.5,
+              "std_from_median": 16.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 550.0,
+              "std_from_median": 7.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97034005",
+          "raw": 0.6560836286781653,
+          "score": 0.6726454678413671,
+          "risk": 0.68,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 10.0,
+              "std_from_median": 27.38,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 715.0,
+              "std_from_median": 16.5,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.511,
+              "std_from_median": 16.49,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 850.0,
+              "std_from_median": 12.84,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97032563",
+          "raw": 0.6516410937667765,
+          "score": 0.6600798309270839,
+          "risk": 0.6375,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 9.0,
+              "std_from_median": 24.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 700.0,
+              "std_from_median": 16.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.5,
+              "std_from_median": 16.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97030584",
+          "raw": 0.6515094153344869,
+          "score": 0.6597073806475484,
+          "risk": 0.595,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 8.0,
+              "std_from_median": 21.3,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 675.0,
+              "std_from_median": 15.3,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.482,
+              "std_from_median": 15.28,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97027936",
+          "raw": 0.6399302474749825,
+          "score": 0.6269558948417596,
+          "risk": 0.5525,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 7.0,
+              "std_from_median": 18.25,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 642.86,
+              "std_from_median": 14.34,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.459,
+              "std_from_median": 14.32,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 550.0,
+              "std_from_median": 7.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97025559",
+          "raw": 0.64423648456032,
+          "score": 0.6391360155972444,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "total_billed",
+              "value": 1000.0,
+              "std_from_median": 15.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 6.0,
+              "std_from_median": 15.21,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 658.33,
+              "std_from_median": 14.81,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.47,
+              "std_from_median": 14.78,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 1.695,
+              "std_from_median": 2.03,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97022949",
+          "raw": 0.6386291996105362,
+          "score": 0.6232759023602543,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 590.0,
+              "std_from_median": 12.77,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.421,
+              "std_from_median": 12.74,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 5.0,
+              "std_from_median": 12.17,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97021131",
+          "raw": 0.6473650396174018,
+          "score": 0.647985082109441,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 637.5,
+              "std_from_median": 14.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.455,
+              "std_from_median": 14.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 4.0,
+              "std_from_median": 9.13,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 500.0,
+              "std_from_median": 6.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97019310",
+          "raw": 0.6584979080002576,
+          "score": 0.679474217187445,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 683.33,
+              "std_from_median": 15.55,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.488,
+              "std_from_median": 15.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 550.0,
+              "std_from_median": 7.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 3.0,
+              "std_from_median": 6.08,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97017311",
+          "raw": 0.6843733747218822,
+          "score": 0.7526625491413544,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 750.0,
+              "std_from_median": 17.54,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.536,
+              "std_from_median": 17.54,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 1050.0,
+              "std_from_median": 16.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 2.333,
+              "std_from_median": 3.71,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-97014547",
+          "raw": 0.6001598007948638,
+          "score": 0.5144658406566796,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 450.0,
+              "std_from_median": 8.59,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.321,
+              "std_from_median": 8.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 450.0,
+              "std_from_median": 5.41,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96987018",
+          "raw": 0.6537110531229912,
+          "score": 0.6659346769139635,
+          "risk": 0.68,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 10.0,
+              "std_from_median": 27.38,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1050.0,
+              "std_from_median": 16.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.504,
+              "std_from_median": 16.2,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 705.0,
+              "std_from_median": 16.2,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96984325",
+          "raw": 0.6598505872452373,
+          "score": 0.6833002481794193,
+          "risk": 0.6375,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 9.0,
+              "std_from_median": 24.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 666.67,
+              "std_from_median": 15.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.476,
+              "std_from_median": 15.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 950.0,
+              "std_from_median": 14.7,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96981575",
+          "raw": 0.6300671637290982,
+          "score": 0.5990583247206489,
+          "risk": 0.595,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 8.0,
+              "std_from_median": 21.3,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 631.25,
+              "std_from_median": 14.0,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.451,
+              "std_from_median": 13.99,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 500.0,
+              "std_from_median": 6.34,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96980284",
+          "raw": 0.6247526745297547,
+          "score": 0.5840263794470991,
+          "risk": 0.5525,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 7.0,
+              "std_from_median": 18.25,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96978918",
+          "raw": 0.6393942630246527,
+          "score": 0.6254398716412937,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "visits_per_member_30d",
+              "value": 6.0,
+              "std_from_median": 15.21,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.435,
+              "std_from_median": 13.32,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 608.33,
+              "std_from_median": 13.31,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 4.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96977703",
+          "raw": 0.6405573633886065,
+          "score": 0.6287296818869816,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 5.0,
+              "std_from_median": 12.17,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 700.0,
+              "std_from_median": 10.05,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96975769",
+          "raw": 0.6343918767935333,
+          "score": 0.6112907044790693,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 637.5,
+              "std_from_median": 14.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.455,
+              "std_from_median": 14.16,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 4.0,
+              "std_from_median": 9.13,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 600.0,
+              "std_from_median": 8.2,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96972663",
+          "raw": 0.639786650411254,
+          "score": 0.6265497329092685,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 3.0,
+              "std_from_median": 6.08,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96970477",
+          "raw": 0.6553584946503038,
+          "score": 0.670594438172486,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.554,
+              "std_from_median": 18.29,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 775.0,
+              "std_from_median": 18.29,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 600.0,
+              "std_from_median": 8.2,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96968966",
+          "raw": 0.6583002766313462,
+          "score": 0.6789152201116431,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 950.0,
+              "std_from_median": 23.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.679,
+              "std_from_median": 23.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 950.0,
+              "std_from_median": 14.7,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96966063",
+          "raw": 0.6370361247231937,
+          "score": 0.6187699162485208,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 650.0,
+              "std_from_median": 14.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.464,
+              "std_from_median": 14.53,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 650.0,
+              "std_from_median": 9.12,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 0.0,
+              "std_from_median": 1.73,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96962936",
+          "raw": 0.7138669244708984,
+          "score": 0.8360845694184292,
+          "risk": 0.7905,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 22800.0,
+              "std_from_median": 675.51,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 16.286,
+              "std_from_median": 675.18,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 22800.0,
+              "std_from_median": 420.8,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 76.0,
+              "std_from_median": 102.71,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 19.0,
+              "std_from_median": 76.53,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96960708",
+          "raw": 0.6796066838899433,
+          "score": 0.7391800425383702,
+          "risk": 0.663,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 3950.0,
+              "std_from_median": 113.03,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 2.821,
+              "std_from_median": 112.95,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 3950.0,
+              "std_from_median": 70.46,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 2.821,
+              "std_from_median": 4.99,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96957952",
+          "raw": 0.6846830725850965,
+          "score": 0.7535385244527255,
+          "risk": 0.8075,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 9.0,
+              "std_from_median": 9000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 3300.0,
+              "std_from_median": 93.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 2.357,
+              "std_from_median": 93.57,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 3300.0,
+              "std_from_median": 58.38,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 9.0,
+              "std_from_median": 10.96,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96956215",
+          "raw": 0.6545155308014066,
+          "score": 0.668210128793182,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 1250.0,
+              "std_from_median": 32.46,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.893,
+              "std_from_median": 32.44,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1250.0,
+              "std_from_median": 20.28,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96953209",
+          "raw": 0.6610899016584056,
+          "score": 0.6868056286095403,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 1250.0,
+              "std_from_median": 32.46,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.893,
+              "std_from_median": 32.44,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1250.0,
+              "std_from_median": 20.28,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96890022",
+          "raw": 0.6598857479936411,
+          "score": 0.6833996997778623,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 875.0,
+              "std_from_median": 21.27,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.625,
+              "std_from_median": 21.25,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 6.0,
+              "std_from_median": 15.21,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 750.0,
+              "std_from_median": 10.98,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96888196",
+          "raw": 0.653041284551723,
+          "score": 0.6640402475282586,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1050.0,
+              "std_from_median": 16.56,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 5.0,
+              "std_from_median": 12.17,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96886367",
+          "raw": 0.6691497452940183,
+          "score": 0.7096027637432167,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 862.5,
+              "std_from_median": 20.9,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.616,
+              "std_from_median": 20.88,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 750.0,
+              "std_from_median": 10.98,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 4.0,
+              "std_from_median": 9.13,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96884887",
+          "raw": 0.6578987738872897,
+          "score": 0.6777795762050598,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 3.0,
+              "std_from_median": 6.08,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96883098",
+          "raw": 0.6499344852944328,
+          "score": 0.6552527169378756,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 1100.0,
+              "std_from_median": 17.49,
+              "outside_training_range": true
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96877229",
+          "raw": 0.6280487727368543,
+          "score": 0.5933493390029276,
+          "risk": 0.51,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 700.0,
+              "std_from_median": 16.05,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.5,
+              "std_from_median": 16.03,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 700.0,
+              "std_from_median": 10.05,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96866901",
+          "raw": 0.6583002766313462,
+          "score": 0.6789152201116431,
+          "risk": 0.765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 900.0,
+              "std_from_median": 22.02,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.643,
+              "std_from_median": 22.01,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 900.0,
+              "std_from_median": 13.77,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 0.0,
+              "std_from_median": 1.73,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96857185",
+          "raw": 0.7138669244708984,
+          "score": 0.8360845694184292,
+          "risk": 0.5765,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 18600.0,
+              "std_from_median": 550.19,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 13.286,
+              "std_from_median": 549.92,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 18600.0,
+              "std_from_median": 342.74,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 62.0,
+              "std_from_median": 83.54,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 15.5,
+              "std_from_median": 62.12,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96846842",
+          "raw": 0.6846830725850965,
+          "score": 0.7535385244527255,
+          "risk": 0.731,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 8550.0,
+              "std_from_median": 250.29,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 6.107,
+              "std_from_median": 250.16,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 8550.0,
+              "std_from_median": 155.95,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 6.107,
+              "std_from_median": 13.63,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 4.0,
+              "std_from_median": 4.11,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-96836462",
+          "raw": 0.6531332768425865,
+          "score": 0.6643004462096332,
+          "risk": 0.799,
+          "furthest_features": [
+            {
+              "feature": "unbundled_components",
+              "value": 7.0,
+              "std_from_median": 7000000000.0,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 2350.0,
+              "std_from_median": 65.28,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 1.679,
+              "std_from_median": 65.26,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 2350.0,
+              "std_from_median": 40.72,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_units",
+              "value": 7.0,
+              "std_from_median": 8.22,
+              "outside_training_range": true
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-INJ-36BF45-002",
+          "raw": 0.6767507980150069,
+          "score": 0.7311022163222872,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "level5_em_rate",
+              "value": 1.0,
+              "std_from_median": 8.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.67,
+              "std_from_median": 5.15,
+              "outside_training_range": false
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "visits_per_member_30d",
+              "value": 2.0,
+              "std_from_median": 3.04,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 240.0,
+              "std_from_median": 2.32,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-INJ-36BF45-001",
+          "raw": 0.6537321104205186,
+          "score": 0.6659942371336136,
+          "risk": 0.059,
+          "furthest_features": [
+            {
+              "feature": "level5_em_rate",
+              "value": 1.0,
+              "std_from_median": 8.56,
+              "outside_training_range": false
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 240.0,
+              "std_from_median": 2.32,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.171,
+              "std_from_median": 2.3,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 0.171,
+              "std_from_median": 1.97,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-94087300",
+          "raw": 0.6546752262120472,
+          "score": 0.6686618246350859,
+          "risk": 0.425,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 156789.0,
+              "std_from_median": 4673.76,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 111.992,
+              "std_from_median": 4671.41,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 156789.0,
+              "std_from_median": 2911.09,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 111.992,
+              "std_from_median": 291.89,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-93543753",
+          "raw": 0.6306113607000627,
+          "score": 0.6005975769006291,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-93542557",
+          "raw": 0.6084437228281113,
+          "score": 0.5378967778518313,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85830315",
+          "raw": 0.6306113607000627,
+          "score": 0.6005975769006291,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85829117",
+          "raw": 0.6084437228281113,
+          "score": 0.5378967778518313,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85763801",
+          "raw": 0.6306113607000627,
+          "score": 0.6005975769006291,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85763143",
+          "raw": 0.6084437228281113,
+          "score": 0.5378967778518313,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85600247",
+          "raw": 0.6306113607000627,
+          "score": 0.6005975769006291,
+          "risk": 0.833,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 5.0,
+              "std_from_median": 4.18,
+              "outside_training_range": false
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 1.17,
+              "std_from_median": 3.09,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-85599508",
+          "raw": 0.6084437228281113,
+          "score": 0.5378967778518313,
+          "risk": 0.0451,
+          "furthest_features": [
+            {
+              "feature": "provider_peer_ratio",
+              "value": 0.286,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_avg_claim",
+              "value": 400.0,
+              "std_from_median": 7.1,
+              "outside_training_range": false
+            },
+            {
+              "feature": "total_billed",
+              "value": 400.0,
+              "std_from_median": 4.48,
+              "outside_training_range": true
+            },
+            {
+              "feature": "duplicate_fields",
+              "value": 0.0,
+              "std_from_median": 2.79,
+              "outside_training_range": false
+            },
+            {
+              "feature": "provider_members_30d",
+              "value": 1.0,
+              "std_from_median": 1.73,
+              "outside_training_range": false
+            }
+          ]
+        },
+        {
+          "claim_id": "CLM-10000050",
+          "raw": 0.7138669244708984,
+          "score": 0.8360845694184292,
+          "risk": 0.3794,
+          "furthest_features": [
+            {
+              "feature": "provider_avg_claim",
+              "value": 12250.0,
+              "std_from_median": 360.7,
+              "outside_training_range": true
+            },
+            {
+              "feature": "provider_peer_ratio",
+              "value": 8.75,
+              "std_from_median": 360.52,
+              "outside_training_range": true
+            },
+            {
+              "feature": "total_billed",
+              "value": 12250.0,
+              "std_from_median": 224.72,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_vs_provider_avg",
+              "value": 8.75,
+              "std_from_median": 20.57,
+              "outside_training_range": true
+            },
+            {
+              "feature": "billed_hours_on_date",
+              "value": 2.0,
+              "std_from_median": 6.51,
+              "outside_training_range": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

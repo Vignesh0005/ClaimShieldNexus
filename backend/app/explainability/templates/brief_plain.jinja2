@@ -1,0 +1,22 @@
+# Case {{ b.case_id }} in plain language
+
+> {{ b.disclaimer }}
+
+This case is about {{ b.provider }}. The system rated it {{ b.severity }} priority for review. About {{ b.potential_dollars | inr }} in billing and {{ b.members_affected }} patient{{ "" if b.members_affected == 1 else "s" }} are involved.
+
+## What was noticed
+{% for e in b.evidence -%}
+- {{ e.plain }}
+{% endfor %}
+## What we do not know
+{% for l in b.limitations -%}
+- {{ l }}
+{% endfor %}
+## What would explain it
+{% for c in b.clears -%}
+- {{ c }}
+{% endfor %}
+## Suggested next step
+{{ b.recommended_action_plain }}
+
+A flag is a reason to look more closely. It is not a conclusion about anyone.

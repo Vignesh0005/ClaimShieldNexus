@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ClaimShield Nexus Overlay",
+  "version": "0.1.0",
+  "description": "Shows a ClaimShield risk summary for provider, claim and case IDs inside your existing claims screens. Synthetic demo. Not a fraud determination.",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:3000/*"],
+  "action": { "default_popup": "popup.html", "default_title": "ClaimShield Nexus" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

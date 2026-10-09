@@ -1,0 +1,142 @@
+.csn-root,
+.csn-root * {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.csn-bubble {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483646;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #047857;
+  background: #047857;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(51, 65, 85, 0.35);
+}
+
+.csn-bubble[aria-pressed="true"] {
+  background: #047857;
+  color: #FFFFFF;
+}
+
+.csn-bubble:focus-visible,
+.csn-panel button:focus-visible,
+.csn-panel a:focus-visible {
+  outline: 3px solid #047857;
+  outline-offset: 2px;
+}
+
+.csn-hint {
+  position: fixed;
+  right: 78px;
+  bottom: 30px;
+  z-index: 2147483646;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #334155;
+  font-size: 12px;
+}
+
+.csn-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 2147483646;
+  width: 300px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #047857;
+  background: #FFFFFF;
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.45;
+  box-shadow: 0 12px 32px rgba(51, 65, 85, 0.45);
+}
+
+.csn-panel header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #F1F5F9;
+  font-weight: 600;
+}
+
+.csn-panel .csn-id {
+  margin: 10px 0 4px;
+  font: 600 15px "JetBrains Mono", ui-monospace, monospace;
+}
+
+.csn-panel ol {
+  margin: 4px 0 0;
+  padding-left: 20px;
+}
+
+.csn-panel .csn-muted {
+  color: #334155;
+  font-size: 12px;
+}
+
+.csn-panel .csn-risk {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.csn-panel .csn-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.csn-panel .csn-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.csn-panel a.csn-btn,
+.csn-panel button.csn-btn {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #047857;
+  background: #047857;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.csn-panel button.csn-close {
+  border: 0;
+  background: none;
+  color: #334155;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.csn-lasso {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483645;
+  pointer-events: none;
+}
+
+.csn-picking,
+.csn-picking * {
+  cursor: crosshair !important;
+}

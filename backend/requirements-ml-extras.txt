@@ -1,0 +1,7 @@
+# Optional. Without these the app uses built-in fallbacks:
+#   sentence-transformers -> hashed bag-of-words embeddings
+#   faiss-cpu             -> exact cosine search in numpy
+#   shap                  -> XGBoost's native TreeSHAP contributions (always used for the classifier)
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+shap>=0.45

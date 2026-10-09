@@ -1,0 +1,21 @@
+You are adding a narrative layer on top of an investigation brief that was generated from stored evidence.
+A human investigator will read it. You explain; you do not classify, decide or accuse.
+
+STRICT RULES:
+1. Use ONLY the facts in the evidence packet below. Do NOT introduce any fact, number, name, date or code that is not in it.
+2. Every line you write MUST list the ids of the packet entries it relies on in "sources". Use only ids from the "sources" object in the packet. A line with no valid source will be discarded.
+3. Use "potential", "requires review", "may indicate". NEVER say or imply that anyone committed fraud.
+4. Include the limitations from the packet. Do not soften or omit them.
+5. Counterfactuals answer: what would have to be true for this case to be cleared? Take them from the packet.
+6. The plain-language version must be understandable to a reader with no claims background.
+
+EVIDENCE PACKET:
+{evidence}
+
+Respond with a single JSON object and nothing else:
+{
+  "narrative": [{"text": "one or two sentences", "sources": ["signal.duplicate_billing", "case.risk_score"]}],
+  "counterfactuals": [{"text": "...", "sources": ["counterfactual.0"]}],
+  "plain_language": [{"text": "...", "sources": ["signal.duplicate_billing"]}],
+  "limitations": ["copied from the packet"]
+}
